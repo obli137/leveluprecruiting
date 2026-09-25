@@ -1,0 +1,4371 @@
+[
+  {
+    "slug": "ai-in-recruiting-step-zero",
+    "edition": "1",
+    "title": "AI in Recruiting: Step Zero",
+    "date": "April 16, 2026",
+    "original": "Original: \"IA en Recruiting: el paso 0\" · April 16, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "The AI-in-Recruiting conversation usually starts with the flashy stuff: automated screening, matching, interview summaries, auto-generated scorecards, \"perfect\" outreach."
+      },
+      {
+        "type": "p",
+        "text": "The problem is that if your process is a mess, AI won't fix it. It'll amplify it. And that can get very expensive."
+      },
+      {
+        "type": "p",
+        "text": "Expensive in time (because you're automating mistakes)."
+      },
+      {
+        "type": "p",
+        "text": "Expensive in quality (because you're rejecting the wrong people)."
+      },
+      {
+        "type": "p",
+        "text": "Expensive in reputation (because the candidate experience degrades)."
+      },
+      {
+        "type": "p",
+        "text": "Expensive in internal credibility (because the business stops trusting Recruiting)."
+      },
+      {
+        "type": "p",
+        "text": "Expensive in tokens!"
+      },
+      {
+        "type": "p",
+        "text": "Step zero isn't choosing a tool. It's putting the system in order."
+      },
+      {
+        "type": "h2",
+        "text": "1) Map the real process (one page)"
+      },
+      {
+        "type": "p",
+        "text": "Before adding AI, build an end-to-end map of how you hire today:"
+      },
+      {
+        "type": "li",
+        "text": "Opening: who requests the role, who approves it, what inputs exist."
+      },
+      {
+        "type": "li",
+        "text": "Attraction: where talent comes in, from which sourcing channels."
+      },
+      {
+        "type": "li",
+        "text": "Evaluation: stages, interviews, tests."
+      },
+      {
+        "type": "li",
+        "text": "Decision: who decides, and based on what evidence."
+      },
+      {
+        "type": "li",
+        "text": "Close: offer, negotiation, signature."
+      },
+      {
+        "type": "p",
+        "text": "Add two layers:"
+      },
+      {
+        "type": "li",
+        "text": "Tools (ATS, LinkedIn Recruiter, scheduling, assessments, side spreadsheets, etc.)"
+      },
+      {
+        "type": "li",
+        "text": "People (recruiter, hiring manager, interviewers, leadership, legal/finance if applicable)"
+      },
+      {
+        "type": "p",
+        "text": "If your map shows spreadsheets that exist \"because the ATS isn't enough,\" duplicated steps, or fuzzy approvals, you've already found friction."
+      },
+      {
+        "type": "h2",
+        "text": "2) Source traceability (without it, you're flying blind)"
+      },
+      {
+        "type": "p",
+        "text": "Measure performance across at least four sources:"
+      },
+      {
+        "type": "li",
+        "text": "Applicants (inbound)"
+      },
+      {
+        "type": "li",
+        "text": "Referrals"
+      },
+      {
+        "type": "li",
+        "text": "Direct sourcing (cold candidates)"
+      },
+      {
+        "type": "li",
+        "text": "External / agencies"
+      },
+      {
+        "type": "p",
+        "text": "Look at conversion, not just volume:"
+      },
+      {
+        "type": "li",
+        "text": "% who reach an interview"
+      },
+      {
+        "type": "li",
+        "text": "% who reach the final round"
+      },
+      {
+        "type": "li",
+        "text": "% who receive an offer"
+      },
+      {
+        "type": "li",
+        "text": "% who accept"
+      },
+      {
+        "type": "p",
+        "text": "And if you can, add a quality signal (hiring manager feedback, early retention, initial performance). Without this, it's easy to \"optimize\" toward the wrong source."
+      },
+      {
+        "type": "h2",
+        "text": "3) Bottlenecks: where value leaks out"
+      },
+      {
+        "type": "p",
+        "text": "Look for three things:"
+      },
+      {
+        "type": "li",
+        "text": "Stages where delays pile up (aging by stage)"
+      },
+      {
+        "type": "li",
+        "text": "Sharp drop-offs in the funnel (conversion)"
+      },
+      {
+        "type": "li",
+        "text": "Variability: similar roles with wildly different timelines"
+      },
+      {
+        "type": "p",
+        "text": "Aging is useful, but only when read in context: not every search should take the same amount of time. What matters is spotting avoidable delays (waiting on decisions, redundant stages, confusing handoffs)."
+      },
+      {
+        "type": "h2",
+        "text": "4) Audit your interviews and decisions"
+      },
+      {
+        "type": "p",
+        "text": "AI runs on whatever you feed it. If your evaluation is inconsistent, automation will amplify the inconsistency."
+      },
+      {
+        "type": "p",
+        "text": "Quick check:"
+      },
+      {
+        "type": "li",
+        "text": "Do you have scorecards, or just \"liked them / didn't like them\"?"
+      },
+      {
+        "type": "li",
+        "text": "Are interviewers assessing what was agreed at kickoff, or is everyone making up their own criteria?"
+      },
+      {
+        "type": "li",
+        "text": "Is evidence documented, or does it all stay in a hallway conversation?"
+      },
+      {
+        "type": "h2",
+        "text": "5) Stack inventory: what are we paying for, and why?"
+      },
+      {
+        "type": "p",
+        "text": "Build a list with four columns:"
+      },
+      {
+        "type": "li",
+        "text": "Tool"
+      },
+      {
+        "type": "li",
+        "text": "Estimated cost"
+      },
+      {
+        "type": "li",
+        "text": "What it was bought for"
+      },
+      {
+        "type": "li",
+        "text": "What it's actually used for today"
+      },
+      {
+        "type": "p",
+        "text": "This exercise usually uncovers paid features nobody uses, duplicated tools, and parallel processes. If you're already paying for an expensive stack, make it work properly first."
+      },
+      {
+        "type": "h2",
+        "text": "Guiding principle: don't automate steps you don't need"
+      },
+      {
+        "type": "p",
+        "text": "Elon Musk has said that Tesla went overboard with factory automation and that it was a mistake: automating for the sake of automating can make the system worse. Recruiting works the same way. If a stage adds no value, automating it just makes it faster… and more damaging."
+      },
+      {
+        "type": "h2",
+        "text": "The \"Step Zero\" checklist (7 days)"
+      },
+      {
+        "type": "li",
+        "text": "One-page end-to-end map"
+      },
+      {
+        "type": "li",
+        "text": "Defined stages + advancement criteria for each"
+      },
+      {
+        "type": "li",
+        "text": "Performance by source (the four minimum)"
+      },
+      {
+        "type": "li",
+        "text": "Conversion by stage (even if imperfect)"
+      },
+      {
+        "type": "li",
+        "text": "Tool inventory + actual purpose"
+      },
+      {
+        "type": "li",
+        "text": "Scorecards and evidence-based decisions"
+      },
+      {
+        "type": "li",
+        "text": "Eliminate one step that adds no value"
+      },
+      {
+        "type": "p",
+        "text": "Once you've done this, AI stops being a toy and becomes leverage."
+      },
+      {
+        "type": "p",
+        "text": "P.S. I built the course I wish I'd taken when I first started leading Recruiting. It's called Recruiting Management — a 12-week executive program for HR/Talent leaders and founders who are scaling their hiring. We'll work on operating model, leadership, stakeholders, metrics, ATS, and applying AI with sound judgment. If you're interested, you can apply here: https://www.hrlevel-up.com/formacion"
+      }
+    ]
+  },
+  {
+    "slug": "ai-fluency-in-recruiting",
+    "edition": "2",
+    "title": "AI Fluency in Recruiting",
+    "date": "April 20, 2026",
+    "original": "Original: \"AI Fluency en Recruiting\" · April 20, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "For years, what set great recruiters apart was instinct."
+      },
+      {
+        "type": "p",
+        "text": "Knowing how to read a search. Understanding a hiring manager. Spotting early whether a candidate was all smoke or real firepower. Now there's a new layer — one that doesn't replace that judgment, but definitely puts it to the test."
+      },
+      {
+        "type": "p",
+        "text": "AI Fluency means working with artificial intelligence without becoming intellectually dependent on it."
+      },
+      {
+        "type": "p",
+        "text": "Anthropic explains it with a simple idea: today, people interact with AI in three ways."
+      },
+      {
+        "type": "p",
+        "text": "The first is Automation: you ask it to do a task and it does it. The second is Augmentation: you think with it, collaborate, iterate. The third is Agency: you set up a system that operates on your behalf within certain boundaries."
+      },
+      {
+        "type": "p",
+        "text": "And that's the point."
+      },
+      {
+        "type": "p",
+        "text": "Plenty of recruiters think they've entered the AI era because they ask it to write outreach messages or summarize résumés."
+      },
+      {
+        "type": "p",
+        "text": "The real difference shows up when you understand what to delegate, how to ask, what to question, and what you should never hand over to a machine."
+      },
+      {
+        "type": "p",
+        "text": "That's where the 4D framework comes in:"
+      },
+      {
+        "type": "p",
+        "text": "Delegation. What I hand to AI and what I keep for myself. Asking it to organize information is one thing. Letting it interpret motivations, context, or potential is something else entirely."
+      },
+      {
+        "type": "p",
+        "text": "Description. The quality of what you get back depends on the quality of what you ask. A mediocre recruiter writes vague prompts. A good one builds context."
+      },
+      {
+        "type": "p",
+        "text": "Discernment. Not everything that sounds smart is smart. AI writes with confidence even when it gets things wrong. That's why judgment doesn't lose value. It gains value."
+      },
+      {
+        "type": "p",
+        "text": "Diligence. Responsibility is still human. If AI helps you evaluate, communicate, or decide, you're still the one accountable."
+      },
+      {
+        "type": "p",
+        "text": "And for me, this is the underlying idea: AI isn't here to replace recruiters. It's here to expose them."
+      },
+      {
+        "type": "p",
+        "text": "It will supercharge the ones who already think well. And it will make it more obvious who was just executing tasks without much judgment."
+      },
+      {
+        "type": "p",
+        "text": "That's why the future of recruiting won't be split between those who use AI and those who don't."
+      },
+      {
+        "type": "p",
+        "text": "It'll be split between those who use it to amplify judgment and those who use it to disguise mediocrity with speed."
+      },
+      {
+        "type": "p",
+        "text": "The tool matters."
+      },
+      {
+        "type": "p",
+        "text": "But the mind steering it matters a lot more."
+      }
+    ]
+  },
+  {
+    "slug": "on-hiring-feasibility-in-recruiting",
+    "edition": "3",
+    "title": "On Hiring Feasibility in Recruiting",
+    "date": "April 23, 2026",
+    "original": "Original: \"Sobre la Factibilidad de Hire en Recruiting\" · April 23, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "How to measure whether a hire is actually feasible"
+      },
+      {
+        "type": "p",
+        "text": "One of the most uncomfortable conversations in Recruiting isn't about salary. It's about feasibility."
+      },
+      {
+        "type": "p",
+        "text": "Is it actually possible to fill this role within the timeline and conditions we're setting?"
+      },
+      {
+        "type": "p",
+        "text": "Very often the implicit answer is \"yes, obviously.\" But the answer isn't — as we'd say — boolean. And months later, the frustration shows up: the market \"isn't responding,\" the hiring manager \"can't find the profile,\" the business \"needed this yesterday.\""
+      },
+      {
+        "type": "p",
+        "text": "Feasibility isn't a gut feeling. It's an analysis. And there's no universal rule: every company has to build its own, based on its business model, urgency, and market positioning."
+      },
+      {
+        "type": "p",
+        "text": "But there are variables you can't ignore."
+      },
+      {
+        "type": "h2",
+        "text": "1. Do you own 100% of the hiring decision?"
+      },
+      {
+        "type": "p",
+        "text": "Hiring for your own company is not the same as hiring on behalf of a third party."
+      },
+      {
+        "type": "p",
+        "text": "Key questions:"
+      },
+      {
+        "type": "li",
+        "text": "Is the final decision internal?"
+      },
+      {
+        "type": "li",
+        "text": "Can you adjust requirements, budget, or process if the market doesn't respond?"
+      },
+      {
+        "type": "li",
+        "text": "Or do you depend on an external client's approval?"
+      },
+      {
+        "type": "p",
+        "text": "If the hire depends on clients (consultancies, software factories, BPOs), your level of control changes radically."
+      },
+      {
+        "type": "p",
+        "text": "And if you also don't have exclusivity, feasibility drops even further. You're competing for the same talent against other firms submitting candidates to the same client. Speed, aggressiveness, and your ability to work the market become far more decisive."
+      },
+      {
+        "type": "p",
+        "text": "The first rule of feasibility is understanding how much real control you have over the equation."
+      },
+      {
+        "type": "h2",
+        "text": "2. Role difficulty: the actual talent supply"
+      },
+      {
+        "type": "p",
+        "text": "This is where oversimplification tends to creep in: \"it's a hard profile.\""
+      },
+      {
+        "type": "p",
+        "text": "What does \"hard\" actually mean?"
+      },
+      {
+        "type": "li",
+        "text": "How many people with that stack really exist in the market?"
+      },
+      {
+        "type": "li",
+        "text": "In which geographies?"
+      },
+      {
+        "type": "li",
+        "text": "At what seniority?"
+      },
+      {
+        "type": "li",
+        "text": "What level of specialization does it require?"
+      },
+      {
+        "type": "p",
+        "text": "A role can have a small talent pool, but that doesn't automatically mean low feasibility."
+      },
+      {
+        "type": "p",
+        "text": "The critical variable is the relationship between supply and demand."
+      },
+      {
+        "type": "h2",
+        "text": "3. Market demand: the other side of the equation"
+      },
+      {
+        "type": "p",
+        "text": "A small talent pool doesn't always mean fierce competition for that talent."
+      },
+      {
+        "type": "p",
+        "text": "Some ultra-niche roles have few candidates… but also low demand. That can make the hire perfectly viable."
+      },
+      {
+        "type": "p",
+        "text": "On the other hand, some profiles have thousands of people available and still face extremely high demand (for example, certain tech profiles during periods of expansion)."
+      },
+      {
+        "type": "p",
+        "text": "Feasibility is decided at the intersection:"
+      },
+      {
+        "type": "li",
+        "text": "Scarce talent + high demand → low feasibility"
+      },
+      {
+        "type": "li",
+        "text": "Scarce talent + low demand → feasible"
+      },
+      {
+        "type": "li",
+        "text": "Abundant talent + high demand → depends on your offer"
+      },
+      {
+        "type": "li",
+        "text": "Abundant talent + low demand → high feasibility"
+      },
+      {
+        "type": "p",
+        "text": "Without a market analysis, any estimate is just optimism."
+      },
+      {
+        "type": "h2",
+        "text": "4. Aging: when do you actually need this person?"
+      },
+      {
+        "type": "p",
+        "text": "Every search has a clock, even if nobody says it out loud."
+      },
+      {
+        "type": "li",
+        "text": "Is there a real deadline?"
+      },
+      {
+        "type": "li",
+        "text": "Does the business critically depend on this hire?"
+      },
+      {
+        "type": "li",
+        "text": "What happens if it's filled 30 days later than expected?"
+      },
+      {
+        "type": "p",
+        "text": "Some roles can wait. Others have an \"expiration date.\" The more rigid the deadline, the less room to negotiate and the less tolerance for iteration."
+      },
+      {
+        "type": "p",
+        "text": "Feasibility isn't just \"does the talent exist.\" It's whether the talent exists within the time you have."
+      },
+      {
+        "type": "h2",
+        "text": "5. Process vs. value proposition"
+      },
+      {
+        "type": "p",
+        "text": "This variable is often ignored."
+      },
+      {
+        "type": "p",
+        "text": "How long and tedious is your process relative to the strength of your offer?"
+      },
+      {
+        "type": "li",
+        "text": "How many interviews?"
+      },
+      {
+        "type": "li",
+        "text": "How long does each round of feedback take?"
+      },
+      {
+        "type": "li",
+        "text": "Are there lengthy assessments?"
+      },
+      {
+        "type": "li",
+        "text": "Are there multiple redundant stages?"
+      },
+      {
+        "type": "p",
+        "text": "If your process is demanding but your employer brand and conditions aren't particularly attractive, feasibility drops."
+      },
+      {
+        "type": "p",
+        "text": "The market doesn't wait."
+      },
+      {
+        "type": "p",
+        "text": "A long process can be reasonable if the brand is strong, the challenge is compelling, and compensation keeps pace. But without a clear differentiator, friction works against you."
+      },
+      {
+        "type": "h2",
+        "text": "Build your own feasibility rule"
+      },
+      {
+        "type": "p",
+        "text": "Every company should define a simple matrix that combines:"
+      },
+      {
+        "type": "li",
+        "text": "Level of control (ownership / dependence on clients)"
+      },
+      {
+        "type": "li",
+        "text": "General conditions (salary, work model, etc.)"
+      },
+      {
+        "type": "li",
+        "text": "Exclusivity (if applicable)"
+      },
+      {
+        "type": "li",
+        "text": "Talent supply"
+      },
+      {
+        "type": "li",
+        "text": "Market demand"
+      },
+      {
+        "type": "li",
+        "text": "Urgency (real aging)"
+      },
+      {
+        "type": "li",
+        "text": "Process rigor vs. attractiveness of the offer"
+      },
+      {
+        "type": "li",
+        "text": "MOST IMPORTANT: the priority for the business"
+      },
+      {
+        "type": "p",
+        "text": "Not to discourage searches. To align expectations and strategy from the very start."
+      },
+      {
+        "type": "p",
+        "text": "Because very often the problem isn't that Recruiting \"can't close.\" It's that the business assumed a feasibility nobody ever validated."
+      },
+      {
+        "type": "p",
+        "text": "The next time you open a search, before posting the job ad, ask yourself an uncomfortable question:"
+      },
+      {
+        "type": "p",
+        "text": "Are we treating this hire as a wish… or as a real probability?"
+      },
+      {
+        "type": "p",
+        "text": "P.S. In the AI Recruiting Management course, I'll help you build your own hiring-feasibility model, among many other things we'll work on over three months. The goal is for you to be able to iterate on your Talent function, whatever context you find yourself in. More details: https://www.hrlevel-up.com/formacion"
+      }
+    ]
+  },
+  {
+    "slug": "negotiation-in-recruiting-arbitrate-anchor-and-hold-the-tension",
+    "edition": "4",
+    "title": "Negotiation in Recruiting: Arbitrate, Anchor, and Hold the Tension",
+    "date": "April 27, 2026",
+    "original": "Original: \"Negociación en Recruiting: arbitrar, anclar y sostener la tensión\" · April 27, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "In Recruiting, negotiation doesn't start when the offer goes out. It starts much earlier. It starts when the recruiter understands that their job isn't to set the salary, cap the band, or automatically meet the candidate's ask. Their job is more complex: to arbitrate between two legitimate sets of expectations."
+      },
+      {
+        "type": "p",
+        "text": "On one side, the salary range the company — or the client — is willing to pay. On the other, the candidate's financial and professional expectations."
+      },
+      {
+        "type": "p",
+        "text": "In this context, negotiating isn't about \"convincing\" someone to move a number up or down. It's about managing an unavoidable tension without breaking the process."
+      },
+      {
+        "type": "h2",
+        "text": "Salary isn't a number, it's a range"
+      },
+      {
+        "type": "p",
+        "text": "One of the most common mistakes is thinking of salary as a fixed figure. For most professional roles, what actually exists is a band."
+      },
+      {
+        "type": "p",
+        "text": "That band usually gets finalized at the end of the process, once the organization has clarity on:"
+      },
+      {
+        "type": "li",
+        "text": "The candidate's real level."
+      },
+      {
+        "type": "li",
+        "text": "The expected impact on the business."
+      },
+      {
+        "type": "li",
+        "text": "The urgency of the hire."
+      },
+      {
+        "type": "li",
+        "text": "Other talent available in the pipeline."
+      },
+      {
+        "type": "p",
+        "text": "That's why, whenever possible, it's worth sharing a range from the start. Not to shut the conversation down, but to align expectations. If the terms are too far apart, it's better to know early than after weeks of interviews."
+      },
+      {
+        "type": "p",
+        "text": "If you mention a fixed number instead of a range, it can hurt the negotiation later if the final offer comes in below that promise. It becomes a negative anchor."
+      },
+      {
+        "type": "h2",
+        "text": "The power of the anchor"
+      },
+      {
+        "type": "p",
+        "text": "Every negotiation revolves around one central concept: anchoring."
+      },
+      {
+        "type": "p",
+        "text": "The first number that comes up tends to shape everything that follows. If the candidate names a very high expectation, that figure becomes the psychological reference point. If the company communicates a low range, the same thing happens."
+      },
+      {
+        "type": "p",
+        "text": "The recruiter has to be aware of that effect."
+      },
+      {
+        "type": "p",
+        "text": "Anchoring isn't manipulation. It's understanding that the starting point shapes what's perceived as \"reasonable.\" In some contexts, it can be strategic for the company to share the range first. In others, it's better to listen to the candidate first and understand where they're positioning themselves."
+      },
+      {
+        "type": "p",
+        "text": "What matters is that the anchor is consistent with market reality and the internal band. Anchoring too far off can kill the conversation before it even begins."
+      },
+      {
+        "type": "h2",
+        "text": "It's always negotiable (within real limits)"
+      },
+      {
+        "type": "p",
+        "text": "Even when there's a band ceiling, experience shows that limits aren't always absolute."
+      },
+      {
+        "type": "p",
+        "text": "There are exceptional candidates who justify breaking the ceiling. There are critical urgencies that make decisions more flexible. There are competitive situations that force a rethink of the offer."
+      },
+      {
+        "type": "p",
+        "text": "Saying something is \"negotiable\" doesn't mean anything is possible. It means the negotiation is dynamic. The recruiter needs to know clearly what's truly fixed and what can move if the situation calls for it."
+      },
+      {
+        "type": "p",
+        "text": "Negotiating without understanding those internal margins is risky. It leads to promises that later erode trust."
+      },
+      {
+        "type": "h2",
+        "text": "BATNA: the alternative that defines power"
+      },
+      {
+        "type": "p",
+        "text": "In negotiation, the concept of BATNA (Best Alternative To a Negotiated Agreement) is key. It's the best option available if no agreement is reached."
+      },
+      {
+        "type": "p",
+        "text": "The recruiter lives with two BATNAs at the same time."
+      },
+      {
+        "type": "p",
+        "text": "The candidate's:"
+      },
+      {
+        "type": "li",
+        "text": "Another offer in progress."
+      },
+      {
+        "type": "li",
+        "text": "Staying in their current job."
+      },
+      {
+        "type": "li",
+        "text": "Continuing to look for something better."
+      },
+      {
+        "type": "p",
+        "text": "The company's:"
+      },
+      {
+        "type": "li",
+        "text": "Another strong finalist."
+      },
+      {
+        "type": "li",
+        "text": "Reopening the search."
+      },
+      {
+        "type": "li",
+        "text": "Postponing the hire."
+      },
+      {
+        "type": "p",
+        "text": "Understanding these scenarios completely changes the conversation."
+      },
+      {
+        "type": "p",
+        "text": "If the candidate has multiple processes at an advanced stage, their leverage increases. If the company critically depends on this hire and has no strong alternatives, its urgency weighs in too."
+      },
+      {
+        "type": "p",
+        "text": "Negotiating without mapping both sides' BATNAs is negotiating blind."
+      },
+      {
+        "type": "h2",
+        "text": "Holding a healthy tension"
+      },
+      {
+        "type": "p",
+        "text": "The recruiter's skill isn't paying as little as possible. Nor is it getting the candidate the highest possible pay. It's holding a healthy tension in which both sides feel the agreement is fair."
+      },
+      {
+        "type": "p",
+        "text": "An offer that leaves a sense of unfairness usually gets paid for later: in early disengagement, in turnover, or in lost trust."
+      },
+      {
+        "type": "p",
+        "text": "Negotiation is the first act of the employment relationship. If it begins with resentment, the cost shows up down the road."
+      },
+      {
+        "type": "h2",
+        "text": "Salary isn't the only variable"
+      },
+      {
+        "type": "p",
+        "text": "Reducing the conversation to a number is an oversimplification."
+      },
+      {
+        "type": "p",
+        "text": "Beyond base salary, other elements can tip the scale:"
+      },
+      {
+        "type": "li",
+        "text": "Work model and real flexibility."
+      },
+      {
+        "type": "li",
+        "text": "Quality and challenge of the project."
+      },
+      {
+        "type": "li",
+        "text": "Visibility and professional growth."
+      },
+      {
+        "type": "li",
+        "text": "Autonomy and culture."
+      },
+      {
+        "type": "li",
+        "text": "Additional benefits."
+      },
+      {
+        "type": "li",
+        "text": "Stability and long-term outlook."
+      },
+      {
+        "type": "p",
+        "text": "The key is understanding what the candidate truly values. Not everyone prioritizes the same things. Some want to maximize immediate income. Others are after learning, visibility, or impact."
+      },
+      {
+        "type": "p",
+        "text": "Listening carefully lets you build offers that create value without necessarily increasing direct cost."
+      },
+      {
+        "type": "h2",
+        "text": "The recruiter's real role"
+      },
+      {
+        "type": "p",
+        "text": "In a negotiation, the recruiter isn't one side's lawyer. They're a strategic mediator."
+      },
+      {
+        "type": "p",
+        "text": "They have to protect the salary framework the organization defined, honestly represent the candidate's expectations, and translate the urgencies and limits of both sides without distorting reality."
+      },
+      {
+        "type": "p",
+        "text": "Arbitrating well takes clarity, judgment, and the courage to hold uncomfortable conversations."
+      },
+      {
+        "type": "p",
+        "text": "Because in the end, a good negotiation doesn't leave winners and losers. It leaves a solid agreement on which to build a sustainable working relationship."
+      },
+      {
+        "type": "p",
+        "text": "And that construction starts long before the contract is signed."
+      }
+    ]
+  },
+  {
+    "slug": "the-recruiters-logbook-how-to-choose-an-ats",
+    "edition": "5",
+    "title": "The Recruiter's Logbook: How to Choose an ATS",
+    "date": "May 5, 2026",
+    "original": "Original: \"Bitácora del Reclutador: Cómo elegir un ATS\" · May 5, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "Choosing an ATS usually feels like an obvious decision: \"we need one.\""
+      },
+      {
+        "type": "p",
+        "text": "In practice, many companies buy an ATS to fix a lack of structure and end up adding one more tool to a disorganized system. Or worse: they pay for years for features they never use."
+      },
+      {
+        "type": "p",
+        "text": "A good ATS can bring order, speed, and visibility. A poorly chosen one just formalizes the chaos."
+      },
+      {
+        "type": "p",
+        "text": "So before comparing tools, you have to start with the uncomfortable part:"
+      },
+      {
+        "type": "h2",
+        "text": "1) First: do you really need an ATS?"
+      },
+      {
+        "type": "p",
+        "text": "This isn't a philosophical question. It's a business question."
+      },
+      {
+        "type": "p",
+        "text": "Three variables help you decide:"
+      },
+      {
+        "type": "li",
+        "text": "Company size. Managing 10 searches a year is not the same as managing 200."
+      },
+      {
+        "type": "li",
+        "text": "Projected volume (12–24 months). The decision isn't justified by today's volume, but by the volume you'll be handling soon."
+      },
+      {
+        "type": "li",
+        "text": "Expected ROI. An ATS should improve at least one of these dimensions: speed, quality, cost, traceability, or experience."
+      },
+      {
+        "type": "p",
+        "text": "If you can't explain what concrete improvement you expect, the ATS will most likely end up as an expensive repository."
+      },
+      {
+        "type": "h2",
+        "text": "2) How to justify the budget (when it does make sense)"
+      },
+      {
+        "type": "p",
+        "text": "If you already suspect you need an ATS, these are the arguments that usually help unlock budget:"
+      },
+      {
+        "type": "p",
+        "text": "Owning your candidate database. Building your own talent database reduces dependence on third parties: LinkedIn, agencies, external databases. The company stops \"starting from scratch\" on every search."
+      },
+      {
+        "type": "p",
+        "text": "Careers page + inbound generation. A good careers page, combined with email marketing and a minimal content strategy, can increase applications and lower cost-per-hire."
+      },
+      {
+        "type": "p",
+        "text": "Process automation. For both Talent and Hiring Managers. Even the most basic ATS comes with automations: reminders, templates, statuses, tasks. The more advanced ones add deeper functionality, including asynchronous interviews and AI agents."
+      },
+      {
+        "type": "h2",
+        "text": "3) Good timing: \"legacy + AI\" vs. \"AI-native\""
+      },
+      {
+        "type": "p",
+        "text": "Today the market offers two main paths:"
+      },
+      {
+        "type": "li",
+        "text": "Traditional ATS platforms that are adding AI."
+      },
+      {
+        "type": "li",
+        "text": "AI-native solutions, with more modern architecture and AI features built in by design."
+      },
+      {
+        "type": "p",
+        "text": "The former tend to bring robustness, coverage, and operational maturity. The latter tend to bring better UX, faster innovation, and a better fit with new workflows."
+      },
+      {
+        "type": "p",
+        "text": "Neither is \"better\" by definition. It depends on context."
+      },
+      {
+        "type": "p",
+        "text": "And that context comes down to one question:"
+      },
+      {
+        "type": "h2",
+        "text": "4) The question that defines everything: what's your budget?"
+      },
+      {
+        "type": "p",
+        "text": "This isn't just about cost. It's about strategy."
+      },
+      {
+        "type": "p",
+        "text": "Because the set of features worth prioritizing changes depending on how you recruit:"
+      },
+      {
+        "type": "li",
+        "text": "Are you more inbound or outbound (cold sourcing)?"
+      },
+      {
+        "type": "li",
+        "text": "Do you have a candidate database to import?"
+      },
+      {
+        "type": "li",
+        "text": "Do you hire at volume or for hard-to-fill roles?"
+      },
+      {
+        "type": "li",
+        "text": "Is LinkedIn Recruiter your biggest expense today?"
+      },
+      {
+        "type": "li",
+        "text": "Is your bottleneck screening, interviews, scheduling, or decision-making?"
+      },
+      {
+        "type": "p",
+        "text": "Useful fact: LinkedIn Recruiter isn't an ATS, but it does cover two decisive things — a candidate database plus sourcing capability — at a high cost. In many organizations, the whole stack ends up revolving around LinkedIn, and the ATS is only used for \"tracking.\""
+      },
+      {
+        "type": "p",
+        "text": "That can be avoided, but first you have to see it."
+      },
+      {
+        "type": "h2",
+        "text": "5) Feature ≠ value (a quick example)"
+      },
+      {
+        "type": "p",
+        "text": "A feature can be amazing in one context and counterproductive in another."
+      },
+      {
+        "type": "p",
+        "text": "Example: AI Interviewer"
+      },
+      {
+        "type": "li",
+        "text": "For high-volume or mid-level roles, it can save time and standardize screening."
+      },
+      {
+        "type": "li",
+        "text": "For a highly sought-after senior role, with someone who isn't actively looking, an interview with an agent can add friction and lower conversion. There, human contact and a well-run process usually matter more."
+      },
+      {
+        "type": "p",
+        "text": "The tool isn't the system. It's one component."
+      },
+      {
+        "type": "h2",
+        "text": "6) Feature checklist (evaluate with judgment)"
+      },
+      {
+        "type": "p",
+        "text": "There's no universal list, but these are the variables that usually determine whether an implementation succeeds or fails:"
+      },
+      {
+        "type": "p",
+        "text": "AI Interviewer. Useful for volume. Evaluate the friction it creates with senior profiles."
+      },
+      {
+        "type": "p",
+        "text": "AI Matching. We all want it to work perfectly. It's still evolving. If this feature is key for you, test it before signing:"
+      },
+      {
+        "type": "li",
+        "text": "load 50–100 real (or anonymized) profiles for complex roles"
+      },
+      {
+        "type": "li",
+        "text": "compare its ranking against human judgment"
+      },
+      {
+        "type": "p",
+        "text": "I once ran this test with a very widely used tool, and it couldn't properly tell a BI Analyst apart from a Data Scientist. If matching fails at the basics, don't find out after you've signed the contract."
+      },
+      {
+        "type": "p",
+        "text": "Chrome extension for importing LinkedIn profiles. Saves real time. For outbound teams, it's usually essential."
+      },
+      {
+        "type": "p",
+        "text": "Email marketing. Not just for \"sending emails.\" For reactivating your database, nurturing candidates, and improving conversion."
+      },
+      {
+        "type": "p",
+        "text": "Careers page. More important than it seems: how flexible is the customization? Does it integrate with your brand? Does it convert?"
+      },
+      {
+        "type": "p",
+        "text": "Pro tip: if it integrates with LinkedIn \"Basic Jobs,\" the jobs on your careers page get republished on LinkedIn, generating a very high volume of applicants. LinkedIn disables this feature if your company is a staffing firm."
+      },
+      {
+        "type": "p",
+        "text": "Database ownership. Can you export candidates, or are you locked in? This determines your ability to migrate or combine tools in the future."
+      },
+      {
+        "type": "p",
+        "text": "Internal talent \"marketplace.\" Some platforms sell access to candidate databases. It can be useful, but make sure you understand the quality, segmentation, and limitations."
+      },
+      {
+        "type": "p",
+        "text": "Integrations. Calendar, email, Slack/Teams, assessments, background checks, HRIS. Every integration that doesn't exist becomes manual friction. You must take your tool stack into account and map where your key stakeholders will interact from."
+      },
+      {
+        "type": "p",
+        "text": "Support. Do they support you in your language? Is your English good enough? Especially during onboarding and initial customization, support determines success."
+      },
+      {
+        "type": "p",
+        "text": "Analytics. Which metrics do you want to track? Does the ATS offer them natively, or will you depend on BI? Does it allow clear definitions by source, stage, and time?"
+      },
+      {
+        "type": "h2",
+        "text": "7) A final note"
+      },
+      {
+        "type": "p",
+        "text": "These are just some of the factors. There are many more: permissions, compliance, multi-country, workflows by business unit, referral modules, and so on."
+      },
+      {
+        "type": "p",
+        "text": "The choice is never \"final.\" It's a combination of context + budget + strategy + adoption capacity."
+      },
+      {
+        "type": "p",
+        "text": "The most practical recommendation I can leave you with is this:"
+      },
+      {
+        "type": "p",
+        "text": "Don't buy an ATS just to \"have an ATS.\" Buy it to solve a specific part of the system. And measure that improvement from day one."
+      },
+      {
+        "type": "p",
+        "text": "Invitation: if you'd like to go deeper on this and other topics, check out the Recruiting Management + AI program we're offering at levelUp."
+      }
+    ]
+  },
+  {
+    "slug": "from-interview-to-encounter",
+    "edition": "6",
+    "title": "From Interview to Encounter",
+    "date": "May 20, 2026",
+    "original": "Original: \"De la entrevista al encuentro\" · May 20, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "Most interviews look far too much alike."
+      },
+      {
+        "type": "p",
+        "text": "A straight-faced interviewer. A candidate trying to \"make a good impression.\" Proper questions, polished answers, and a quiet feeling at the end: I'm not sure I actually met this person, or just saw their professional version."
+      },
+      {
+        "type": "p",
+        "text": "In Recruiting we like to talk about \"assessing competencies.\" And that's fine. But many bad hires don't happen because of a lack of skills. They happen because we never understood what the candidate really wanted."
+      },
+      {
+        "type": "p",
+        "text": "And that desire — when it's not made explicit — shows up later. As frustration, low energy, quietly job-hunting, early resignation."
+      },
+      {
+        "type": "p",
+        "text": "The idea behind this article is simple: move from interview to encounter. From a proper interrogation to a real conversation."
+      },
+      {
+        "type": "h2",
+        "text": "The stiff interview: why it fails"
+      },
+      {
+        "type": "p",
+        "text": "The traditional interview has a structural problem: it's designed to control."
+      },
+      {
+        "type": "li",
+        "text": "Control what gets asked"
+      },
+      {
+        "type": "li",
+        "text": "Control what gets answered"
+      },
+      {
+        "type": "li",
+        "text": "Control risk"
+      },
+      {
+        "type": "p",
+        "text": "The candidate understands the game: \"I'm being evaluated.\" So they protect themselves and answer what they think works in their favor."
+      },
+      {
+        "type": "p",
+        "text": "The interviewer protects themselves too: they ask standard questions, try to \"cover themselves,\" and stay on safe ground."
+      },
+      {
+        "type": "p",
+        "text": "The result: both are acting."
+      },
+      {
+        "type": "p",
+        "text": "And when both are acting, the information that matters gets left out."
+      },
+      {
+        "type": "h2",
+        "text": "An encounter isn't informality. It's depth."
+      },
+      {
+        "type": "p",
+        "text": "\"Encounter\" doesn't mean a coffee chat or a soft interview. It means a conversation with intent, where there's room to say the things that usually go unsaid."
+      },
+      {
+        "type": "p",
+        "text": "It involves two things:"
+      },
+      {
+        "type": "li",
+        "text": "Transparency from the interviewer"
+      },
+      {
+        "type": "li",
+        "text": "Permission for the candidate to be transparent too"
+      },
+      {
+        "type": "p",
+        "text": "The quality of an interview isn't about how clever the question is. It's about how safe the conversation feels for telling the truth."
+      },
+      {
+        "type": "h2",
+        "text": "Transparency starts on the company's side"
+      },
+      {
+        "type": "p",
+        "text": "If you want candidates to be honest, you have to go first."
+      },
+      {
+        "type": "p",
+        "text": "The kind of transparency that changes the dynamic the most is this:"
+      },
+      {
+        "type": "li",
+        "text": "What this role really is in practice (not in the job description)"
+      },
+      {
+        "type": "li",
+        "text": "What's expected in the first 90 days (with examples)"
+      },
+      {
+        "type": "li",
+        "text": "What's hard about the job (what hurts)"
+      },
+      {
+        "type": "li",
+        "text": "What kind of leadership there is (and what kind there isn't)"
+      },
+      {
+        "type": "li",
+        "text": "What's broken today (and why you're hiring)"
+      },
+      {
+        "type": "p",
+        "text": "This has an immediate effect: it switches off the candidate's \"pitch mode.\" They stop performing to be liked and start evaluating whether they actually want to be there."
+      },
+      {
+        "type": "p",
+        "text": "That's a good thing. Even if it's sometimes scary."
+      },
+      {
+        "type": "h2",
+        "text": "From competencies to desire"
+      },
+      {
+        "type": "p",
+        "text": "Assessing competencies is necessary. But it's not enough if you don't understand desire."
+      },
+      {
+        "type": "p",
+        "text": "Real desire usually surfaces through questions like:"
+      },
+      {
+        "type": "li",
+        "text": "What would you like to be different in your next job?"
+      },
+      {
+        "type": "li",
+        "text": "What kind of problem genuinely energizes you?"
+      },
+      {
+        "type": "li",
+        "text": "What are you no longer willing to compromise on?"
+      },
+      {
+        "type": "li",
+        "text": "What kind of team brings out your best, and what kind drains you?"
+      },
+      {
+        "type": "li",
+        "text": "If this role turns out perfectly, what changes in your professional life?"
+      },
+      {
+        "type": "p",
+        "text": "These questions aren't looking for textbook \"motivation.\" They're looking for internal structure: what actually drives this person."
+      },
+      {
+        "type": "p",
+        "text": "Two candidates can have the same résumé. But opposite desires."
+      },
+      {
+        "type": "p",
+        "text": "And that's where the risk lies."
+      },
+      {
+        "type": "h2",
+        "text": "Transparency is also negotiated"
+      },
+      {
+        "type": "p",
+        "text": "Not every candidate will open up right away. Not because they're lying, but because they don't know whether they can trust you."
+      },
+      {
+        "type": "p",
+        "text": "A good interviewer creates the opening without forcing it."
+      },
+      {
+        "type": "p",
+        "text": "Three simple practices:"
+      },
+      {
+        "type": "li",
+        "text": "Name the intent. \"I'm not looking for perfect answers. I'm trying to understand whether this is a fit for both of us.\""
+      },
+      {
+        "type": "li",
+        "text": "Make the trade-off explicit. \"We'd rather get this clear now than three months from now.\""
+      },
+      {
+        "type": "li",
+        "text": "Share an uncomfortable truth first. \"Let me tell you what's hardest about this role.\" When the company shows vulnerability, it invites reciprocity."
+      },
+      {
+        "type": "h2",
+        "text": "What you gain with this approach"
+      },
+      {
+        "type": "p",
+        "text": "Moving from interview to encounter isn't romanticism. It pays off."
+      },
+      {
+        "type": "p",
+        "text": "1) Less early turnover. When real desire is aligned, the person arrives with clarity. They don't discover \"the fine print\" later."
+      },
+      {
+        "type": "p",
+        "text": "2) Better decisions, faster. Proper but shallow interviews create indecision. Deep conversations produce clear signals."
+      },
+      {
+        "type": "p",
+        "text": "3) Better candidate experience. Not because it's \"nice.\" Because it's honest. And honesty is rare and valuable."
+      },
+      {
+        "type": "p",
+        "text": "4) A real employer brand. Brands aren't built with slogans. They're built with conversations."
+      },
+      {
+        "type": "p",
+        "text": "5) More mature hiring managers. When you train interviewers to have real conversations, the bar goes up. And the whole system improves."
+      },
+      {
+        "type": "h2",
+        "text": "The close that's worth it"
+      },
+      {
+        "type": "p",
+        "text": "An interview is an evaluation device. An encounter is a conversation with truth in it."
+      },
+      {
+        "type": "p",
+        "text": "The difference lies in being clear."
+      },
+      {
+        "type": "p",
+        "text": "In a market where everyone wants to \"attract talent,\" the edge is rarely marketing. It's the ability to hold honest, deep, and consistent conversations."
+      },
+      {
+        "type": "p",
+        "text": "If candidates feel they can tell the truth, you'll get to hear it too."
+      },
+      {
+        "type": "p",
+        "text": "And that's when, finally, the process starts working the way it should."
+      }
+    ]
+  },
+  {
+    "slug": "data-hygiene-in-the-ats",
+    "edition": "7",
+    "title": "Data Hygiene in the ATS",
+    "date": "June 4, 2026",
+    "original": "Original: \"Higiene de Datos en el ATS\" · June 4, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "How to get reliable data without chasing your team"
+      },
+      {
+        "type": "p",
+        "text": "Almost every Recruiting team has the same problem, even if they describe it differently:"
+      },
+      {
+        "type": "p",
+        "text": "\"The dashboard is useless.\""
+      },
+      {
+        "type": "p",
+        "text": "\"The numbers don't add up.\""
+      },
+      {
+        "type": "p",
+        "text": "\"The ATS is incomplete.\""
+      },
+      {
+        "type": "p",
+        "text": "\"We end up tracking everything in a spreadsheet.\""
+      },
+      {
+        "type": "p",
+        "text": "And the cause is almost always the same: no data hygiene."
+      },
+      {
+        "type": "p",
+        "text": "An ATS isn't a magic tool. It's a system of record. If the team doesn't log things properly, the ATS isn't lying — it's simply reflecting the mess."
+      },
+      {
+        "type": "p",
+        "text": "The point is that \"logging things properly\" isn't solved by scolding people. It's solved by design."
+      },
+      {
+        "type": "h2",
+        "text": "1) The uncomfortable truth: bad data is a system problem"
+      },
+      {
+        "type": "p",
+        "text": "When data is incomplete, the knee-jerk reaction is to blame the team:"
+      },
+      {
+        "type": "p",
+        "text": "\"Recruiters don't update.\" \"Hiring managers don't respond.\" \"There's no discipline.\""
+      },
+      {
+        "type": "p",
+        "text": "Sometimes that's true. But in most cases, the system is poorly designed:"
+      },
+      {
+        "type": "li",
+        "text": "fields that add no value"
+      },
+      {
+        "type": "li",
+        "text": "ambiguous stages"
+      },
+      {
+        "type": "li",
+        "text": "no rules"
+      },
+      {
+        "type": "li",
+        "text": "duplicate entries"
+      },
+      {
+        "type": "li",
+        "text": "reports nobody uses"
+      },
+      {
+        "type": "li",
+        "text": "zero feedback for whoever updates the data"
+      },
+      {
+        "type": "p",
+        "text": "People don't take care of data if they don't understand what it's for. And they won't take care of it if the system demands work that gives nothing back."
+      },
+      {
+        "type": "h2",
+        "text": "2) The real goal: \"reliable enough\" data, not perfect data"
+      },
+      {
+        "type": "p",
+        "text": "You're not after a spotless ATS. You're after something more useful:"
+      },
+      {
+        "type": "li",
+        "text": "being able to make decisions with confidence"
+      },
+      {
+        "type": "li",
+        "text": "being able to spot bottlenecks"
+      },
+      {
+        "type": "li",
+        "text": "being able to explain performance to the business"
+      },
+      {
+        "type": "li",
+        "text": "being able to compare searches"
+      },
+      {
+        "type": "li",
+        "text": "being able to improve the funnel"
+      },
+      {
+        "type": "p",
+        "text": "In recruiting, 80% data quality is usually enough to operate well. What matters is consistency."
+      },
+      {
+        "type": "h2",
+        "text": "3) Define your \"critical fields\" (and don't compromise on them)"
+      },
+      {
+        "type": "p",
+        "text": "The best way to improve data hygiene is to shrink the problem."
+      },
+      {
+        "type": "p",
+        "text": "Don't try to make everything perfect. Choose the bare minimum."
+      },
+      {
+        "type": "p",
+        "text": "Typical critical fields (example):"
+      },
+      {
+        "type": "li",
+        "text": "Actual source (inbound / referral / sourcing / agency)"
+      },
+      {
+        "type": "li",
+        "text": "Candidate's current stage"
+      },
+      {
+        "type": "li",
+        "text": "Rejection reason (simple categories)"
+      },
+      {
+        "type": "li",
+        "text": "Stage-advance date (or automatic timestamp)"
+      },
+      {
+        "type": "li",
+        "text": "Hiring manager / department"
+      },
+      {
+        "type": "li",
+        "text": "Role / seniority (normalized)"
+      },
+      {
+        "type": "li",
+        "text": "Final status (hired / not hired)"
+      },
+      {
+        "type": "p",
+        "text": "Everything else can exist, but it can't be mandatory."
+      },
+      {
+        "type": "p",
+        "text": "The rule is simple: if a field is critical for metrics and decisions, it must be mandatory or automated."
+      },
+      {
+        "type": "h2",
+        "text": "4) Standardize stages with purpose (otherwise the ATS becomes decoration)"
+      },
+      {
+        "type": "p",
+        "text": "The ATS breaks down when every team invents its own stages."
+      },
+      {
+        "type": "p",
+        "text": "Well-defined stages doesn't mean \"more stages.\" It means stages with a purpose."
+      },
+      {
+        "type": "p",
+        "text": "Anti-pattern example:"
+      },
+      {
+        "type": "li",
+        "text": "\"Interview 1\""
+      },
+      {
+        "type": "li",
+        "text": "\"Interview 2\""
+      },
+      {
+        "type": "li",
+        "text": "\"Interview 3\""
+      },
+      {
+        "type": "li",
+        "text": "\"Final interview\""
+      },
+      {
+        "type": "p",
+        "text": "That says nothing and makes measurement impossible."
+      },
+      {
+        "type": "p",
+        "text": "Better:"
+      },
+      {
+        "type": "li",
+        "text": "Screening (clear criteria)"
+      },
+      {
+        "type": "li",
+        "text": "Technical interview (what it validates)"
+      },
+      {
+        "type": "li",
+        "text": "Context / team interview (what it validates)"
+      },
+      {
+        "type": "li",
+        "text": "Decision / offer"
+      },
+      {
+        "type": "p",
+        "text": "Each stage should have:"
+      },
+      {
+        "type": "li",
+        "text": "a purpose"
+      },
+      {
+        "type": "li",
+        "text": "an owner"
+      },
+      {
+        "type": "li",
+        "text": "advancement criteria"
+      },
+      {
+        "type": "li",
+        "text": "rejection criteria"
+      },
+      {
+        "type": "p",
+        "text": "If you don't define this, the team doesn't know what \"updating properly\" means."
+      },
+      {
+        "type": "h2",
+        "text": "5) Ownership: who updates what, and when"
+      },
+      {
+        "type": "p",
+        "text": "Data hygiene dies when there are no clear owners."
+      },
+      {
+        "type": "p",
+        "text": "Define ownership around simple events:"
+      },
+      {
+        "type": "li",
+        "text": "When an interview is scheduled → the recruiter updates the stage (or it's automated)"
+      },
+      {
+        "type": "li",
+        "text": "When there's feedback → the interviewer completes the scorecard (not a loose message)"
+      },
+      {
+        "type": "li",
+        "text": "When a decision is made → the hiring manager confirms (with an SLA)"
+      },
+      {
+        "type": "li",
+        "text": "When an offer goes out → the recruiter updates status + amount (if applicable)"
+      },
+      {
+        "type": "p",
+        "text": "And add one operating rule:"
+      },
+      {
+        "type": "p",
+        "text": "If it's not in the ATS, it doesn't exist."
+      },
+      {
+        "type": "p",
+        "text": "It sounds harsh, but it's the only way to avoid \"the ATS says one thing, reality says another.\""
+      },
+      {
+        "type": "h2",
+        "text": "6) A 20-minute weekly ritual (the real secret)"
+      },
+      {
+        "type": "p",
+        "text": "Most people think data hygiene gets fixed with a training session. It doesn't."
+      },
+      {
+        "type": "p",
+        "text": "It gets fixed with a ritual."
+      },
+      {
+        "type": "p",
+        "text": "A 20-minute weekly ritual that includes:"
+      },
+      {
+        "type": "li",
+        "text": "reviewing \"stale\" candidates (no movement in X days)"
+      },
+      {
+        "type": "li",
+        "text": "reviewing rejection reasons (are we rejecting for the right reasons?)"
+      },
+      {
+        "type": "li",
+        "text": "reviewing incorrect stages (\"stuck\" candidates)"
+      },
+      {
+        "type": "li",
+        "text": "reviewing searches with critical aging"
+      },
+      {
+        "type": "p",
+        "text": "This does two things:"
+      },
+      {
+        "type": "li",
+        "text": "keeps the system clean"
+      },
+      {
+        "type": "li",
+        "text": "generates learning"
+      },
+      {
+        "type": "p",
+        "text": "An ATS gets looked after when it's used to manage, not to archive."
+      },
+      {
+        "type": "h2",
+        "text": "7) Automate the obvious (so you don't depend on willpower)"
+      },
+      {
+        "type": "p",
+        "text": "Not everything has to be manual."
+      },
+      {
+        "type": "p",
+        "text": "Typical automations that help enormously:"
+      },
+      {
+        "type": "li",
+        "text": "feedback reminders for interviewers"
+      },
+      {
+        "type": "li",
+        "text": "automatic stage change when an interview is scheduled"
+      },
+      {
+        "type": "li",
+        "text": "automatic tasks when a candidate moves to \"final\" (references, offer, etc.)"
+      },
+      {
+        "type": "li",
+        "text": "status emails to candidates (candidate experience)"
+      },
+      {
+        "type": "li",
+        "text": "aging alerts by stage"
+      },
+      {
+        "type": "p",
+        "text": "Rule: automate repetitive tasks, not decisions."
+      },
+      {
+        "type": "h2",
+        "text": "8) The silent enemy: the parallel spreadsheet"
+      },
+      {
+        "type": "p",
+        "text": "The parallel spreadsheet is usually born for good reasons:"
+      },
+      {
+        "type": "p",
+        "text": "\"I need this data and the ATS doesn't give it to me.\""
+      },
+      {
+        "type": "p",
+        "text": "\"I need to see it more easily.\""
+      },
+      {
+        "type": "p",
+        "text": "\"The report is bad.\""
+      },
+      {
+        "type": "p",
+        "text": "But if you don't kill it, the ATS loses its authority."
+      },
+      {
+        "type": "p",
+        "text": "The right move is to reverse the order:"
+      },
+      {
+        "type": "li",
+        "text": "define the metrics you need"
+      },
+      {
+        "type": "li",
+        "text": "define which ATS fields support them"
+      },
+      {
+        "type": "li",
+        "text": "configure the ATS to capture that"
+      },
+      {
+        "type": "li",
+        "text": "only then build the dashboard"
+      },
+      {
+        "type": "p",
+        "text": "If the ATS can't record the basics, it's not a BI problem. It's a configuration and process problem."
+      },
+      {
+        "type": "h2",
+        "text": "9) How to tell if data hygiene improved (without losing your mind)"
+      },
+      {
+        "type": "p",
+        "text": "Three simple indicators:"
+      },
+      {
+        "type": "li",
+        "text": "% of candidates with a completed source"
+      },
+      {
+        "type": "li",
+        "text": "% of candidates with an up-to-date status and stage"
+      },
+      {
+        "type": "li",
+        "text": "% of \"stale\" candidates per search (no movement in X days)"
+      },
+      {
+        "type": "p",
+        "text": "If those three improve, the rest follows naturally."
+      },
+      {
+        "type": "h2",
+        "text": "Closing"
+      },
+      {
+        "type": "p",
+        "text": "Data hygiene isn't \"tidying up the ATS.\" It's designing a system that makes the right thing easy and the wrong thing hard."
+      },
+      {
+        "type": "p",
+        "text": "When that happens, everything changes:"
+      },
+      {
+        "type": "li",
+        "text": "dashboards become useful"
+      },
+      {
+        "type": "li",
+        "text": "conversations with the business improve"
+      },
+      {
+        "type": "li",
+        "text": "real bottlenecks get detected"
+      },
+      {
+        "type": "li",
+        "text": "the team stops putting out fires and starts managing"
+      },
+      {
+        "type": "p",
+        "text": "And most importantly: the ATS stops being an expensive archive and becomes a decision-making tool."
+      }
+    ]
+  },
+  {
+    "slug": "the-false-problem-of-time-to-hire",
+    "edition": "8",
+    "title": "The False Problem of Time-to-Hire",
+    "date": "June 24, 2026",
+    "original": "Original: \"El falso problema del Time-to-Hire\" · June 24, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "Time-to-Hire is one of the most widely used metrics in Recruiting."
+      },
+      {
+        "type": "p",
+        "text": "It's also one of the most misread."
+      },
+      {
+        "type": "p",
+        "text": "Many companies look at the number as if it were absolute truth: if it goes down, the process is improving; if it goes up, something's broken."
+      },
+      {
+        "type": "p",
+        "text": "But cutting days doesn't necessarily mean hiring better. Sometimes it just means deciding faster. And deciding faster without clarity can be an elegant way of getting it wrong sooner."
+      },
+      {
+        "type": "p",
+        "text": "The problem is making Time-to-Hire the center of the conversation without understanding what's behind it."
+      },
+      {
+        "type": "h2",
+        "text": "Speed isn't always efficiency"
+      },
+      {
+        "type": "p",
+        "text": "In Recruiting, speed matters. Nobody wants endless processes, exhausted candidates, or frustrated hiring managers."
+      },
+      {
+        "type": "p",
+        "text": "But there's an important difference between speed and efficiency."
+      },
+      {
+        "type": "p",
+        "text": "A process can be fast and bad. It can move without friction because nobody evaluates in depth. It can close in a few days because the company lowered its bar. It can look efficient because nobody measured the quality of the hire afterward."
+      },
+      {
+        "type": "p",
+        "text": "The question shouldn't just be how long a search takes."
+      },
+      {
+        "type": "p",
+        "text": "It should also be:"
+      },
+      {
+        "type": "li",
+        "text": "Why does it take that long?"
+      },
+      {
+        "type": "li",
+        "text": "Where is the delay concentrated?"
+      },
+      {
+        "type": "li",
+        "text": "Which part of that time adds value?"
+      },
+      {
+        "type": "li",
+        "text": "Which part is unnecessary waiting?"
+      },
+      {
+        "type": "li",
+        "text": "What impact does that speed have on the final quality?"
+      },
+      {
+        "type": "p",
+        "text": "Time-to-Hire on its own tells you very little. Read within the system, it tells you much more."
+      },
+      {
+        "type": "h2",
+        "text": "Not all aging is bad"
+      },
+      {
+        "type": "p",
+        "text": "There's a growing obsession with reducing aging at every stage of the funnel."
+      },
+      {
+        "type": "p",
+        "text": "That makes sense up to a point. If a candidate waits ten days for feedback, there's a problem. If an interview takes three weeks to schedule because nobody has time on their calendar, that's a problem too."
+      },
+      {
+        "type": "p",
+        "text": "But not all time in process is waste."
+      },
+      {
+        "type": "p",
+        "text": "Some positions require more depth. Some profiles need more conversations. Some decisions warrant more validation because the role's impact is high."
+      },
+      {
+        "type": "p",
+        "text": "The problem isn't that a stage takes longer. The problem is not knowing why it takes longer."
+      },
+      {
+        "type": "p",
+        "text": "Aging without context leads to bad decisions. It can push the team to speed up where it should go deeper, or to cut conversations that still had value."
+      },
+      {
+        "type": "p",
+        "text": "While many people ask, \"How do we cut our timelines?\", the question should be, \"Which timelines are necessary and which ones are friction?\""
+      },
+      {
+        "type": "h2",
+        "text": "Where friction hides"
+      },
+      {
+        "type": "p",
+        "text": "When a search takes too long, the initial diagnosis is often superficial:"
+      },
+      {
+        "type": "p",
+        "text": "\"There aren't enough candidates.\" \"The market is tough.\" \"The recruiter isn't delivering.\" \"The hiring manager is slow.\""
+      },
+      {
+        "type": "p",
+        "text": "Sometimes that's true. But often the bottleneck is somewhere else."
+      },
+      {
+        "type": "p",
+        "text": "It can be a poorly run kickoff. If the role wasn't well defined at the start, the funnel fills up with profiles that look plausible but never close."
+      },
+      {
+        "type": "p",
+        "text": "It can be implicit criteria. If each interviewer evaluates something different, the process drags on because nobody knows exactly what they're looking for."
+      },
+      {
+        "type": "p",
+        "text": "It can be late feedback. Not out of bad intent, but because there's no SLA and no clear ownership."
+      },
+      {
+        "type": "p",
+        "text": "It can be redundant stages. Interviews that were added once \"just in case\" and stayed forever."
+      },
+      {
+        "type": "p",
+        "text": "It can be an uncompetitive offer. The team can move fast, but if the offer doesn't match the market, closing slows down."
+      },
+      {
+        "type": "p",
+        "text": "Time-to-Hire shows the symptom. It doesn't always show the cause."
+      },
+      {
+        "type": "h2",
+        "text": "Measure by stage, not just the final average"
+      },
+      {
+        "type": "p",
+        "text": "Averaging everything into a single metric usually hides more than it reveals."
+      },
+      {
+        "type": "p",
+        "text": "Two processes can have the same total Time-to-Hire and completely different problems."
+      },
+      {
+        "type": "p",
+        "text": "One might lose time in sourcing. Another in feedback. Another in the final decision. Another in negotiation."
+      },
+      {
+        "type": "p",
+        "text": "That's why, beyond the final number, it's worth looking at:"
+      },
+      {
+        "type": "li",
+        "text": "time from opening to first relevant candidate"
+      },
+      {
+        "type": "li",
+        "text": "time from submission to first interview"
+      },
+      {
+        "type": "li",
+        "text": "time between interviews"
+      },
+      {
+        "type": "li",
+        "text": "feedback turnaround time"
+      },
+      {
+        "type": "li",
+        "text": "time from finalist to offer"
+      },
+      {
+        "type": "li",
+        "text": "time from offer to acceptance"
+      },
+      {
+        "type": "p",
+        "text": "Only then does the real map appear."
+      },
+      {
+        "type": "p",
+        "text": "When you measure by stage, you stop arguing about impressions and start seeing where to intervene."
+      },
+      {
+        "type": "h2",
+        "text": "Time-to-Hire by role type"
+      },
+      {
+        "type": "p",
+        "text": "It also makes no sense to measure every role with the same yardstick."
+      },
+      {
+        "type": "p",
+        "text": "Hiring an administrative profile, a recruiter, a sales manager, a senior developer, or a regional leader are not the same thing."
+      },
+      {
+        "type": "p",
+        "text": "Each role has its own level of difficulty, market availability, competitive demand, and business urgency."
+      },
+      {
+        "type": "p",
+        "text": "A good system should differentiate between high-volume roles, critical roles, hard-to-fill roles, confidential roles, positions heavily dependent on the hiring manager, and searches where the salary offer is below market."
+      },
+      {
+        "type": "p",
+        "text": "If everything goes into the same average, the data becomes poor."
+      },
+      {
+        "type": "p",
+        "text": "Maturity lies in segmenting."
+      },
+      {
+        "type": "h2",
+        "text": "The trap of speeding up without improving"
+      },
+      {
+        "type": "p",
+        "text": "Lowering Time-to-Hire can be useful. But it can also create dangerous incentives."
+      },
+      {
+        "type": "p",
+        "text": "If the team feels its success depends only on closing fast, it may start cutting corners:"
+      },
+      {
+        "type": "li",
+        "text": "advancing candidates despite doubts"
+      },
+      {
+        "type": "li",
+        "text": "eliminating necessary stages"
+      },
+      {
+        "type": "li",
+        "text": "pressuring decisions"
+      },
+      {
+        "type": "li",
+        "text": "negotiating poorly"
+      },
+      {
+        "type": "li",
+        "text": "prioritizing availability over fit"
+      },
+      {
+        "type": "li",
+        "text": "hiding complexity to protect the metrics"
+      },
+      {
+        "type": "p",
+        "text": "The process gets faster, but not necessarily better."
+      },
+      {
+        "type": "p",
+        "text": "And if the hire fails, the cost shows up later: early turnover, low performance, loss of the hiring manager's trust, and a worn-out team."
+      },
+      {
+        "type": "p",
+        "text": "Speed without quality is debt."
+      },
+      {
+        "type": "h2",
+        "text": "Liquid processes, liquid hires"
+      },
+      {
+        "type": "p",
+        "text": "Some hiring processes are so light they look efficient."
+      },
+      {
+        "type": "p",
+        "text": "Few stages. Little friction. Quick decisions. Record-time hires."
+      },
+      {
+        "type": "p",
+        "text": "But sometimes that fluidity comes from a lack of structure."
+      },
+      {
+        "type": "p",
+        "text": "When a process is too liquid, everything becomes negotiable: the criteria, the stages, the responsibilities, the depth of evaluation, the decision standard."
+      },
+      {
+        "type": "p",
+        "text": "The candidate advances because people \"liked them.\" The hiring manager approves because \"they look good.\" The offer goes out because \"we need to close.\" And the company celebrates hiring quickly."
+      },
+      {
+        "type": "p",
+        "text": "Until the person starts."
+      },
+      {
+        "type": "p",
+        "text": "And just as quickly as they came in, they leave."
+      },
+      {
+        "type": "p",
+        "text": "Because whatever wasn't validated during the process shows up later in reality: mismatched expectations, misunderstood motivations, poor fit with the role, conditions that weren't that clear, a culture that wasn't what they imagined, responsibilities that changed as soon as they started."
+      },
+      {
+        "type": "p",
+        "text": "A liquid process tends to produce liquid hires: fragile relationships, poorly grounded decisions, and early exits."
+      },
+      {
+        "type": "p",
+        "text": "Not because the person is bad. Not because the company is bad. But because the process didn't create enough clarity for both sides to choose well."
+      },
+      {
+        "type": "h2",
+        "text": "What to look at besides Time-to-Hire"
+      },
+      {
+        "type": "p",
+        "text": "Time-to-Hire should live alongside other metrics."
+      },
+      {
+        "type": "p",
+        "text": "Some key ones:"
+      },
+      {
+        "type": "li",
+        "text": "Conversion by stage. To understand whether the funnel is filtering well or losing valuable candidates."
+      },
+      {
+        "type": "li",
+        "text": "Performance by source. To know which channels generate candidates who actually advance and close."
+      },
+      {
+        "type": "li",
+        "text": "Offer acceptance rate. To detect problems with the offer, timing, or negotiation."
+      },
+      {
+        "type": "li",
+        "text": "Aging by stage. To identify avoidable waits."
+      },
+      {
+        "type": "li",
+        "text": "Hiring manager SLA. To measure feedback and decision turnaround."
+      },
+      {
+        "type": "li",
+        "text": "Quality of hire. Even if only through proxies: early performance, early retention, feedback from the team."
+      },
+      {
+        "type": "p",
+        "text": "The goal isn't to fill dashboards. It's to build a more honest reading of the system."
+      },
+      {
+        "type": "h2",
+        "text": "The right question"
+      },
+      {
+        "type": "p",
+        "text": "Time-to-Hire is an incomplete metric."
+      },
+      {
+        "type": "p",
+        "text": "It's useful when it helps you understand the process. It becomes dangerous when it's used as the sole indicator of success."
+      },
+      {
+        "type": "p",
+        "text": "The question isn't only:"
+      },
+      {
+        "type": "p",
+        "text": "\"How long does it take us to hire?\""
+      },
+      {
+        "type": "p",
+        "text": "The more important question is:"
+      },
+      {
+        "type": "p",
+        "text": "\"Are we taking the right amount of time to hire well?\""
+      },
+      {
+        "type": "p",
+        "text": "Because in Recruiting, speed matters. But consistency matters more."
+      },
+      {
+        "type": "p",
+        "text": "And a mature process isn't the one that's always running."
+      },
+      {
+        "type": "p",
+        "text": "It's the one that knows when to speed up, when to go deeper, and where to eliminate friction."
+      }
+    ]
+  },
+  {
+    "slug": "7-agents-for-recruiting",
+    "edition": "9",
+    "title": "7 Agents for Recruiting",
+    "date": "July 8, 2026",
+    "original": "Original: \"7 agentes para Recruiting\" · July 8, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "For a long time, talking about automation in Recruiting meant talking about expensive tools, complex integrations, or projects that were hard to sustain."
+      },
+      {
+        "type": "p",
+        "text": "That's changing."
+      },
+      {
+        "type": "p",
+        "text": "Many ATS platforms are already adding features that seemed far off just a few years ago: matching, assisted screening, summaries, follow-up automations, smart scorecards, message suggestions, reminders, reports, and copilots for different stages of the process."
+      },
+      {
+        "type": "p",
+        "text": "At the same time, it's getting cheaper and cheaper to build your own agents that connect to existing tools. An agent can run on top of an ATS, Slack, Gmail, Notion, a CRM, or even something as simple as a Google Sheet."
+      },
+      {
+        "type": "p",
+        "text": "The technical barrier is dropping."
+      },
+      {
+        "type": "p",
+        "text": "But that doesn't mean every agent adds value. Before automating, it's worth asking a less glamorous and more important question:"
+      },
+      {
+        "type": "p",
+        "text": "Does this agent improve the process, or does it just speed up a mess?"
+      },
+      {
+        "type": "p",
+        "text": "I've talked about this several times in previous articles: there's no point in layering AI onto a process that isn't clear. If stages are poorly defined, if criteria are ambiguous, if the Hiring Manager doesn't give feedback, or if nobody knows what a good candidate looks like, an agent won't fix the underlying problem."
+      },
+      {
+        "type": "p",
+        "text": "It can make it faster. And harder to see."
+      },
+      {
+        "type": "p",
+        "text": "That's why any implementation should be evaluated within an AI Fluency framework: understanding what to delegate, how to ask, how to review, where to keep human judgment, and what risks appear when a tool starts influencing sensitive decisions."
+      },
+      {
+        "type": "p",
+        "text": "With that caveat out of the way, there are cases where agents can dramatically improve Recruiting operations."
+      },
+      {
+        "type": "p",
+        "text": "Here are 7 possible agents."
+      },
+      {
+        "type": "h2",
+        "text": "1. Intake / Role Calibration Agent"
+      },
+      {
+        "type": "p",
+        "text": "A search is usually won or lost before it's ever posted."
+      },
+      {
+        "type": "p",
+        "text": "When intake is poor, the whole process starts off crooked: candidates show up who look plausible but never close, the Hiring Manager changes criteria midway, the recruiter searches based on assumptions, and the funnel fills with noise."
+      },
+      {
+        "type": "p",
+        "text": "An intake agent can help before the search opens."
+      },
+      {
+        "type": "p",
+        "text": "It can interview the Hiring Manager, structure the conversation, and turn it into a structured intake."
+      },
+      {
+        "type": "p",
+        "text": "It can generate:"
+      },
+      {
+        "type": "li",
+        "text": "must-haves and nice-to-haves"
+      },
+      {
+        "type": "li",
+        "text": "an initial scorecard"
+      },
+      {
+        "type": "li",
+        "text": "screening questions"
+      },
+      {
+        "type": "li",
+        "text": "search risks"
+      },
+      {
+        "type": "li",
+        "text": "an estimated salary benchmark"
+      },
+      {
+        "type": "li",
+        "text": "rejection criteria"
+      },
+      {
+        "type": "p",
+        "text": "The value isn't in \"asking questions with AI.\""
+      },
+      {
+        "type": "p",
+        "text": "The value is in avoiding miscalibrated searches from day one."
+      },
+      {
+        "type": "p",
+        "text": "It can also serve as the process's memory. If three weeks later the Hiring Manager says, \"Actually, we needed something else,\" the team can go back to the original intake and review what changed, why it changed, and what impact it has on the search."
+      },
+      {
+        "type": "h2",
+        "text": "2. Strategic Sourcing Agent"
+      },
+      {
+        "type": "p",
+        "text": "Many sourcing efforts start too fast."
+      },
+      {
+        "type": "p",
+        "text": "Someone copies the JD, opens LinkedIn, tries a few obvious titles, and hopes the right candidate shows up."
+      },
+      {
+        "type": "p",
+        "text": "Sometimes it works. Often it narrows the search."
+      },
+      {
+        "type": "p",
+        "text": "A strategic sourcing agent can take a JD, a scorecard, or an intake and build channel-by-channel strategies."
+      },
+      {
+        "type": "p",
+        "text": "It can suggest:"
+      },
+      {
+        "type": "li",
+        "text": "Boolean keywords"
+      },
+      {
+        "type": "li",
+        "text": "target companies"
+      },
+      {
+        "type": "li",
+        "text": "alternative titles"
+      },
+      {
+        "type": "li",
+        "text": "communities to search in"
+      },
+      {
+        "type": "li",
+        "text": "seniority signals"
+      },
+      {
+        "type": "li",
+        "text": "adjacent profiles that could work"
+      },
+      {
+        "type": "li",
+        "text": "criteria for prioritizing markets or countries"
+      },
+      {
+        "type": "p",
+        "text": "This helps especially when the recruiter needs to move beyond the literal search."
+      },
+      {
+        "type": "p",
+        "text": "For example: not just searching for \"Data Engineer,\" but understanding which equivalent titles the market uses, which companies might have that talent, which technologies are truly core, and which alternative career paths could work."
+      },
+      {
+        "type": "p",
+        "text": "The value lies in expanding the map."
+      },
+      {
+        "type": "p",
+        "text": "It doesn't replace the recruiter's judgment, but it gives them more paths to explore."
+      },
+      {
+        "type": "h2",
+        "text": "3. Résumé Screening Agent"
+      },
+      {
+        "type": "p",
+        "text": "This is one of the most obvious uses — and one of the most delicate."
+      },
+      {
+        "type": "p",
+        "text": "An agent can analyze résumés against the role's scorecard and return an initial assessment."
+      },
+      {
+        "type": "p",
+        "text": "Possible output:"
+      },
+      {
+        "type": "li",
+        "text": "technical fit"
+      },
+      {
+        "type": "li",
+        "text": "industry fit"
+      },
+      {
+        "type": "li",
+        "text": "gaps"
+      },
+      {
+        "type": "li",
+        "text": "red flags"
+      },
+      {
+        "type": "li",
+        "text": "suggested interview questions"
+      },
+      {
+        "type": "li",
+        "text": "recommendation: advance / review / reject"
+      },
+      {
+        "type": "p",
+        "text": "In high-volume searches, it can help cut through a lot of noise."
+      },
+      {
+        "type": "p",
+        "text": "But you have to be careful."
+      },
+      {
+        "type": "p",
+        "text": "Automated screening shouldn't become a black box that decides who deserves to move forward and who doesn't. Even less so when the process has no clear scorecard, or when you're dealing with profiles whose potential doesn't show up in a linear way on the résumé."
+      },
+      {
+        "type": "p",
+        "text": "The agent should act as a copilot, not a judge."
+      },
+      {
+        "type": "p",
+        "text": "It can prioritize. It can summarize. It can flag doubts. It can compare against defined criteria."
+      },
+      {
+        "type": "p",
+        "text": "But the final decision needs human judgment, especially when the signals are ambiguous."
+      },
+      {
+        "type": "h2",
+        "text": "4. Pre-Interview Brief Agent"
+      },
+      {
+        "type": "p",
+        "text": "Many interviews go poorly not because the recruiter doesn't know how to interview, but because they show up underprepared."
+      },
+      {
+        "type": "p",
+        "text": "They skim the résumé, glance at a few notes, recall something about the search, and join the call with questions that are too generic."
+      },
+      {
+        "type": "p",
+        "text": "The result is usually a proper conversation, but not a very useful one."
+      },
+      {
+        "type": "p",
+        "text": "A Pre-Interview Brief agent can prepare the recruiter before each interview."
+      },
+      {
+        "type": "p",
+        "text": "It can summarize:"
+      },
+      {
+        "type": "li",
+        "text": "the candidate's résumé"
+      },
+      {
+        "type": "li",
+        "text": "strengths"
+      },
+      {
+        "type": "li",
+        "text": "doubts to validate"
+      },
+      {
+        "type": "li",
+        "text": "specific questions"
+      },
+      {
+        "type": "li",
+        "text": "potential risks"
+      },
+      {
+        "type": "li",
+        "text": "the experience most relevant to the client or the role"
+      },
+      {
+        "type": "li",
+        "text": "topics not worth repeating if they've already been assessed"
+      },
+      {
+        "type": "p",
+        "text": "This improves interview quality."
+      },
+      {
+        "type": "p",
+        "text": "It also avoids generic conversations where every candidate gets the same questions even though their backgrounds are completely different."
+      },
+      {
+        "type": "p",
+        "text": "The value is in showing up better prepared."
+      },
+      {
+        "type": "p",
+        "text": "Not to read from a script, but to be clearer about what's worth exploring."
+      },
+      {
+        "type": "h2",
+        "text": "5. Follow-up and Candidate Experience Agent"
+      },
+      {
+        "type": "p",
+        "text": "Candidate experience rarely breaks in one big moment."
+      },
+      {
+        "type": "p",
+        "text": "It breaks through small delays."
+      },
+      {
+        "type": "p",
+        "text": "Feedback that never arrives. An interview nobody confirms. An offer that gets stuck. A finalist who goes too many days without an update."
+      },
+      {
+        "type": "p",
+        "text": "A follow-up agent can monitor open stages and suggest actions so no candidate is left hanging."
+      },
+      {
+        "type": "p",
+        "text": "It can detect:"
+      },
+      {
+        "type": "li",
+        "text": "candidates without an update in X days"
+      },
+      {
+        "type": "li",
+        "text": "interviews without feedback"
+      },
+      {
+        "type": "li",
+        "text": "delayed offers"
+      },
+      {
+        "type": "li",
+        "text": "dropout risks"
+      },
+      {
+        "type": "li",
+        "text": "processes with critical aging"
+      },
+      {
+        "type": "li",
+        "text": "personalized follow-up messages"
+      },
+      {
+        "type": "p",
+        "text": "The value is very concrete: it reduces internal ghosting and improves candidate experience."
+      },
+      {
+        "type": "p",
+        "text": "It also helps recruiters avoid relying solely on memory, calendars, or goodwill."
+      },
+      {
+        "type": "p",
+        "text": "In teams with many open searches, this kind of agent can act as an operational control layer. It doesn't make hard decisions, but it keeps the process from deteriorating through avoidable oversights."
+      },
+      {
+        "type": "h2",
+        "text": "6. Feedback Quality Agent"
+      },
+      {
+        "type": "p",
+        "text": "One of the most underestimated problems in Recruiting is poor-quality feedback."
+      },
+      {
+        "type": "p",
+        "text": "\"I liked them.\" \"I don't see it.\" \"They lack seniority.\" \"Not sure about the fit.\" \"Something felt off.\""
+      },
+      {
+        "type": "p",
+        "text": "That kind of feedback doesn't help anyone decide. It doesn't help improve the process either. And it certainly doesn't help train other interviewers."
+      },
+      {
+        "type": "p",
+        "text": "A Feedback Quality agent can review interview feedback and detect whether it's useful or insufficient."
+      },
+      {
+        "type": "p",
+        "text": "It can flag:"
+      },
+      {
+        "type": "li",
+        "text": "feedback that's too vague"
+      },
+      {
+        "type": "li",
+        "text": "possible biases"
+      },
+      {
+        "type": "li",
+        "text": "lack of evidence"
+      },
+      {
+        "type": "li",
+        "text": "criteria that weren't assessed"
+      },
+      {
+        "type": "li",
+        "text": "contradictions between interviewers"
+      },
+      {
+        "type": "li",
+        "text": "discrepancies between the scorecard and the final comment"
+      },
+      {
+        "type": "p",
+        "text": "This can be extremely valuable for raising decision quality."
+      },
+      {
+        "type": "p",
+        "text": "It can also help train Hiring Managers. Not through personal criticism, but through system improvement."
+      },
+      {
+        "type": "p",
+        "text": "For example, if an interviewer rejects someone for \"lack of seniority,\" the agent might ask: What concrete evidence supports that conclusion? Which scorecard criterion wasn't met? What example from the interview shows it?"
+      },
+      {
+        "type": "p",
+        "text": "The value lies in turning loose opinions into useful evidence."
+      },
+      {
+        "type": "h2",
+        "text": "7. Offer Strategy Agent"
+      },
+      {
+        "type": "p",
+        "text": "The offer stage is often treated as an administrative formality."
+      },
+      {
+        "type": "p",
+        "text": "It isn't."
+      },
+      {
+        "type": "p",
+        "text": "It's a moment of negotiation, timing, reading motivations, and managing risk."
+      },
+      {
+        "type": "p",
+        "text": "An Offer Strategy agent can help prepare an offer by taking into account the candidate's expectations, the approved range, seniority, the urgency of the search, possible alternatives, and the risk of a counteroffer."
+      },
+      {
+        "type": "p",
+        "text": "It can suggest:"
+      },
+      {
+        "type": "li",
+        "text": "a recommended range"
+      },
+      {
+        "type": "li",
+        "text": "closing arguments"
+      },
+      {
+        "type": "li",
+        "text": "benefits to highlight"
+      },
+      {
+        "type": "li",
+        "text": "negotiation risks"
+      },
+      {
+        "type": "li",
+        "text": "possible margin"
+      },
+      {
+        "type": "li",
+        "text": "a message for presenting the offer"
+      },
+      {
+        "type": "li",
+        "text": "alerts about potential weak spots in the offer"
+      },
+      {
+        "type": "p",
+        "text": "This doesn't mean AI should decide how much to offer."
+      },
+      {
+        "type": "p",
+        "text": "It means it can help organize the variables before an important conversation."
+      },
+      {
+        "type": "p",
+        "text": "A good offer isn't just a number. It's a complete proposition: compensation, project, growth, work model, timing, team, stability, learning, impact."
+      },
+      {
+        "type": "p",
+        "text": "The value is in professionalizing the close and reducing late-stage losses."
+      },
+      {
+        "type": "h2",
+        "text": "The question isn't which agent we can build"
+      },
+      {
+        "type": "p",
+        "text": "Today, in many cases, building an agent is less difficult than deciding what it should exist for."
+      },
+      {
+        "type": "p",
+        "text": "That's the point."
+      },
+      {
+        "type": "p",
+        "text": "The question isn't just:"
+      },
+      {
+        "type": "p",
+        "text": "\"Can we automate this?\""
+      },
+      {
+        "type": "p",
+        "text": "The more important question is:"
+      },
+      {
+        "type": "p",
+        "text": "\"What part of the process improves if we automate it?\""
+      },
+      {
+        "type": "p",
+        "text": "An agent can save time. It can organize information. It can reduce oversights. It can improve preparation. It can raise feedback quality. It can bring consistency."
+      },
+      {
+        "type": "p",
+        "text": "But it can also accelerate bad criteria, amplify bias, or hide design problems."
+      },
+      {
+        "type": "p",
+        "text": "That's why, before implementing any agent, it's worth checking three things:"
+      },
+      {
+        "type": "li",
+        "text": "Process. Is the stage where I want to use AI well defined?"
+      },
+      {
+        "type": "li",
+        "text": "Criteria. Do I know which decision I want to improve and what evidence I need?"
+      },
+      {
+        "type": "li",
+        "text": "Oversight. Who reviews the output, and against what standard?"
+      },
+      {
+        "type": "p",
+        "text": "AI in Recruiting shouldn't be a layer of makeup over disorganized processes."
+      },
+      {
+        "type": "p",
+        "text": "It should be a tool for making more consistent what we've already understood, designed, and decided to improve."
+      },
+      {
+        "type": "p",
+        "text": "Agents can be very powerful."
+      },
+      {
+        "type": "p",
+        "text": "But their value doesn't depend only on the technology."
+      },
+      {
+        "type": "p",
+        "text": "It depends on the maturity of the system we put them to work in."
+      }
+    ]
+  },
+  {
+    "slug": "what-is-a-forward-deployed-engineer",
+    "edition": "10",
+    "title": "What Is a Forward Deployed Engineer?",
+    "date": "July 21, 2026",
+    "original": "Original: \"Qué es un Forward Deployed Engineer\" · July 21, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "Forward Deployed Engineer: the role that takes AI into production"
+      },
+      {
+        "type": "p",
+        "text": "The title Forward Deployed Engineer, or FDE, is showing up more and more in AI-related job searches."
+      },
+      {
+        "type": "p",
+        "text": "It sounds like a new role, but it has a history. Palantir credits itself with developing this model: engineers who work directly with clients, understand complex problems, and build solutions within each organization's real-world context. The company still describes the FDE as someone who combines code, architecture, data, and direct contact with technical and executive stakeholders."
+      },
+      {
+        "type": "p",
+        "text": "What's new is the speed at which other tech companies are adopting the concept."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI, Scale AI, Encord, and various autonomous-systems companies are already posting positions with this title. The Financial Times reported that FDE job postings grew more than 800% between January and September 2025."
+      },
+      {
+        "type": "p",
+        "text": "The explanation makes a lot of sense: building an AI model is only part of the challenge. Getting it to work every day inside a company — connected to data, tools, permissions, processes, and people — requires a different kind of profile."
+      },
+      {
+        "type": "p",
+        "text": "That's where the Forward Deployed Engineer comes in."
+      },
+      {
+        "type": "h2",
+        "text": "What does an FDE do?"
+      },
+      {
+        "type": "p",
+        "text": "An FDE works at the boundary between the technology product and the client's operations."
+      },
+      {
+        "type": "p",
+        "text": "They can be involved from the very first conversation about the problem all the way to final implementation. Within a single initiative, they might map a process, define the technical scope, design an architecture, code an integration, build evaluations, deploy the system, and support its adoption."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI's current job description sums up the scope quite well: its FDEs lead end-to-end implementations of frontier models, from discovery and design through production deployment. The company also measures their success by real adoption, impact on workflows, and the feedback that later shapes product and model roadmaps."
+      },
+      {
+        "type": "p",
+        "text": "In practice, an FDE can:"
+      },
+      {
+        "type": "li",
+        "text": "talk with users, leaders, and technical teams;"
+      },
+      {
+        "type": "li",
+        "text": "understand how a process really works;"
+      },
+      {
+        "type": "li",
+        "text": "identify where technology can create value;"
+      },
+      {
+        "type": "li",
+        "text": "connect to APIs, databases, and internal tools;"
+      },
+      {
+        "type": "li",
+        "text": "build custom applications or integrations;"
+      },
+      {
+        "type": "li",
+        "text": "define evaluations to verify that the solution works;"
+      },
+      {
+        "type": "li",
+        "text": "implement security and governance controls;"
+      },
+      {
+        "type": "li",
+        "text": "deploy the system to production;"
+      },
+      {
+        "type": "li",
+        "text": "support the behavior change needed for adoption;"
+      },
+      {
+        "type": "li",
+        "text": "bring learnings from the client back to the product team."
+      },
+      {
+        "type": "p",
+        "text": "Scale AI, for example, uses FDEs to build client-specific infrastructure and solve complex AI-data problems. Encord hires them to lead deployments, develop integrations, and feed the roadmap with learnings gathered during implementation."
+      },
+      {
+        "type": "p",
+        "text": "The FDE keeps a responsibility that many implementation roles lose: they write production code and own the outcome."
+      },
+      {
+        "type": "h2",
+        "text": "From demo to real work"
+      },
+      {
+        "type": "p",
+        "text": "Much of the AI conversation is still focused on model capabilities."
+      },
+      {
+        "type": "p",
+        "text": "But a controlled demo has few of the constraints that show up inside an organization:"
+      },
+      {
+        "type": "li",
+        "text": "incomplete or fragmented data;"
+      },
+      {
+        "type": "li",
+        "text": "legacy systems;"
+      },
+      {
+        "type": "li",
+        "text": "poorly documented processes;"
+      },
+      {
+        "type": "li",
+        "text": "permissions and security policies;"
+      },
+      {
+        "type": "li",
+        "text": "regulations;"
+      },
+      {
+        "type": "li",
+        "text": "human decisions that are hard to standardize;"
+      },
+      {
+        "type": "li",
+        "text": "resistance to change;"
+      },
+      {
+        "type": "li",
+        "text": "tools that don't integrate with one another."
+      },
+      {
+        "type": "p",
+        "text": "A solution can work beautifully in a pilot and fail when it has to operate with thousands of users, sensitive information, exceptions, and internal dependencies."
+      },
+      {
+        "type": "p",
+        "text": "The FDE works across that gap."
+      },
+      {
+        "type": "p",
+        "text": "Their job is to understand the client's real conditions and turn a general technological capability into a system that can be used reliably."
+      },
+      {
+        "type": "p",
+        "text": "This need is pushing the industry's leading companies to invest in deployment, not just research and product."
+      },
+      {
+        "type": "p",
+        "text": "In May 2026, OpenAI announced the creation of a dedicated company to help organizations implement AI within their operations. The initiative began with an agreement to bring on approximately 150 Forward Deployed Engineers and deployment specialists from Tomoro, and was launched with more than USD 4 billion in initial investment."
+      },
+      {
+        "type": "p",
+        "text": "A few weeks later, AWS announced a Forward Deployed Engineering organization backed by a USD 1 billion investment, aimed at embedding thousands of engineers alongside customers to build agentic AI systems in production."
+      },
+      {
+        "type": "p",
+        "text": "These are strong signals of the same trend: the bottleneck is shifting from access to models toward the ability to implement them with real impact."
+      },
+      {
+        "type": "h2",
+        "text": "A hard-to-pigeonhole profile"
+      },
+      {
+        "type": "p",
+        "text": "The FDE combines capabilities that are usually spread across several positions."
+      },
+      {
+        "type": "p",
+        "text": "They need engineering depth to build and deploy. They also need product judgment to decide what's worth building. They must understand business processes, communicate with stakeholders, and operate autonomously in ambiguous environments."
+      },
+      {
+        "type": "p",
+        "text": "Depending on the company, the role can look like a mix of:"
+      },
+      {
+        "type": "li",
+        "text": "software engineer;"
+      },
+      {
+        "type": "li",
+        "text": "solutions architect;"
+      },
+      {
+        "type": "li",
+        "text": "implementation engineer;"
+      },
+      {
+        "type": "li",
+        "text": "technical product manager;"
+      },
+      {
+        "type": "li",
+        "text": "technology consultant;"
+      },
+      {
+        "type": "li",
+        "text": "customer engineer."
+      },
+      {
+        "type": "p",
+        "text": "The difference lies in the level of ownership."
+      },
+      {
+        "type": "p",
+        "text": "The work doesn't end with a recommendation, an architecture, or a demo. The FDE stays with the system until it works inside the operation."
+      },
+      {
+        "type": "p",
+        "text": "That's why the position is especially valuable at AI companies. Models change fast, their outputs aren't always deterministic, and each implementation needs its own evaluations. The person must understand both the technology and the process they're trying to improve."
+      },
+      {
+        "type": "h2",
+        "text": "What competencies does it require?"
+      },
+      {
+        "type": "p",
+        "text": "Reviewing current job postings, four major competency groups emerge."
+      },
+      {
+        "type": "h2",
+        "text": "1. Technical depth"
+      },
+      {
+        "type": "p",
+        "text": "Depending on the product and industry, this can include:"
+      },
+      {
+        "type": "li",
+        "text": "Python, JavaScript, or TypeScript;"
+      },
+      {
+        "type": "li",
+        "text": "backend or full-stack development;"
+      },
+      {
+        "type": "li",
+        "text": "APIs and integrations;"
+      },
+      {
+        "type": "li",
+        "text": "cloud and infrastructure;"
+      },
+      {
+        "type": "li",
+        "text": "data pipelines;"
+      },
+      {
+        "type": "li",
+        "text": "security and permissions;"
+      },
+      {
+        "type": "li",
+        "text": "distributed systems;"
+      },
+      {
+        "type": "li",
+        "text": "LLMs, agents, and generative models;"
+      },
+      {
+        "type": "li",
+        "text": "evaluations, observability, and monitoring."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI, for example, looks for experience building production systems, working with generative models, and writing both frontend and backend code."
+      },
+      {
+        "type": "h2",
+        "text": "2. Diagnostic ability"
+      },
+      {
+        "type": "p",
+        "text": "The client doesn't always know exactly what they need."
+      },
+      {
+        "type": "p",
+        "text": "They might ask for a chatbot when their problem is data quality. They might want to automate a stage that should be eliminated. They might envision a sophisticated solution for a process that still lacks clear criteria."
+      },
+      {
+        "type": "p",
+        "text": "The FDE needs to ask good questions, observe workflows, and translate a fuzzy need into a solvable problem."
+      },
+      {
+        "type": "h2",
+        "text": "3. Stakeholder management"
+      },
+      {
+        "type": "p",
+        "text": "The role interacts with developers, users, legal, security, leadership, and sales teams."
+      },
+      {
+        "type": "p",
+        "text": "Each speaks a different language and measures success differently. The FDE must explain complexity without hiding it and hold agreements together among people with different priorities."
+      },
+      {
+        "type": "h2",
+        "text": "4. Results orientation"
+      },
+      {
+        "type": "p",
+        "text": "Implementations move forward under uncertainty."
+      },
+      {
+        "type": "p",
+        "text": "The FDE needs to make decisions about scope, speed, and quality; spot risks; remove blockers; and build a first solution without losing sight of future operations."
+      },
+      {
+        "type": "p",
+        "text": "The ability to deliver matters as much as the quality of the code."
+      },
+      {
+        "type": "h2",
+        "text": "The Recruiting challenge"
+      },
+      {
+        "type": "p",
+        "text": "For Recruiting, the first problem will be searching for the title too literally."
+      },
+      {
+        "type": "p",
+        "text": "There's no uniform definition yet. Some companies say Forward Deployed Engineer; others use titles like Applied AI Engineer, Deployment Engineer, Customer Engineer, Solutions Engineer, or Applied AI Architect for similar jobs."
+      },
+      {
+        "type": "p",
+        "text": "Limiting sourcing to candidates who already have \"FDE\" on LinkedIn can leave out relevant profiles."
+      },
+      {
+        "type": "p",
+        "text": "Possible backgrounds include:"
+      },
+      {
+        "type": "li",
+        "text": "software engineers with client exposure;"
+      },
+      {
+        "type": "li",
+        "text": "solutions engineers who still code;"
+      },
+      {
+        "type": "li",
+        "text": "implementation engineers with strong technical depth;"
+      },
+      {
+        "type": "li",
+        "text": "technical consultants used to building;"
+      },
+      {
+        "type": "li",
+        "text": "product engineers with discovery experience;"
+      },
+      {
+        "type": "li",
+        "text": "founders or early employees at startups;"
+      },
+      {
+        "type": "li",
+        "text": "data engineers or ML engineers oriented toward business use cases."
+      },
+      {
+        "type": "p",
+        "text": "The search needs to prioritize evidence of behaviors:"
+      },
+      {
+        "type": "p",
+        "text": "Have they built solutions within a client's context? Can they turn an ambiguous problem into an architecture? Have they written and deployed production code? Have they made decisions in front of stakeholders with competing interests? Did they get a solution adopted? Have they turned specific learnings into reusable components?"
+      },
+      {
+        "type": "p",
+        "text": "Previous job titles matter less than the combination of capabilities."
+      },
+      {
+        "type": "h2",
+        "text": "How to evaluate an FDE"
+      },
+      {
+        "type": "p",
+        "text": "A traditional technical interview will only cover part of it."
+      },
+      {
+        "type": "p",
+        "text": "The process should look at at least six dimensions:"
+      },
+      {
+        "type": "li",
+        "text": "Engineering: the ability to build reliable systems."
+      },
+      {
+        "type": "li",
+        "text": "Diagnosis: the quality of their questions before proposing anything."
+      },
+      {
+        "type": "li",
+        "text": "Architecture: the ability to design under real constraints."
+      },
+      {
+        "type": "li",
+        "text": "Communication: clarity with both technical and business counterparts."
+      },
+      {
+        "type": "li",
+        "text": "Delivery: ownership from problem to production."
+      },
+      {
+        "type": "li",
+        "text": "Product judgment: the ability to separate a one-off need from a reusable pattern."
+      },
+      {
+        "type": "p",
+        "text": "A case study can be more revealing than a series of abstract questions."
+      },
+      {
+        "type": "p",
+        "text": "For example:"
+      },
+      {
+        "type": "p",
+        "text": "A client wants to automate an approval process with an agent. The data is spread across three systems, there are undocumented exceptions, and the security team doesn't allow sensitive information to be sent to external services. How would you approach the project?"
+      },
+      {
+        "type": "p",
+        "text": "The point wouldn't be for the candidate to reach a solution quickly."
+      },
+      {
+        "type": "p",
+        "text": "Instead, observe:"
+      },
+      {
+        "type": "li",
+        "text": "what they ask first;"
+      },
+      {
+        "type": "li",
+        "text": "which assumptions they identify;"
+      },
+      {
+        "type": "li",
+        "text": "how they prioritize;"
+      },
+      {
+        "type": "li",
+        "text": "which risks they anticipate;"
+      },
+      {
+        "type": "li",
+        "text": "what they'd build in a first version;"
+      },
+      {
+        "type": "li",
+        "text": "how they'd validate the results;"
+      },
+      {
+        "type": "li",
+        "text": "what they'd keep under human control;"
+      },
+      {
+        "type": "li",
+        "text": "how they'd explain the plan to the client."
+      },
+      {
+        "type": "p",
+        "text": "An FDE needs to feel just as comfortable in front of a terminal as in an executive conversation."
+      },
+      {
+        "type": "h2",
+        "text": "The risk of becoming a custom-solutions factory"
+      },
+      {
+        "type": "p",
+        "text": "The model also has its tensions."
+      },
+      {
+        "type": "p",
+        "text": "If every client gets a completely different build, the company can end up operating like a consultancy with costs that are hard to scale."
+      },
+      {
+        "type": "p",
+        "text": "The FDE must solve the specific problem while also recognizing which learnings can become product, components, playbooks, or reusable integrations."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI explicitly includes among the role's responsibilities codifying working patterns into tools and building blocks others can reuse, as well as carrying feedback from the field back to Product and Research."
+      },
+      {
+        "type": "p",
+        "text": "That loop is one of the model's biggest contributions:"
+      },
+      {
+        "type": "p",
+        "text": "client → implementation → learning → product → new implementation"
+      },
+      {
+        "type": "p",
+        "text": "When it works, every project helps improve the next ones."
+      },
+      {
+        "type": "h2",
+        "text": "A role for a new stage of AI"
+      },
+      {
+        "type": "p",
+        "text": "The Forward Deployed Engineer reflects a shift in the market."
+      },
+      {
+        "type": "p",
+        "text": "During the first phase of generative AI, much of the value was tied to accessing better models and experimenting with their capabilities."
+      },
+      {
+        "type": "p",
+        "text": "The next phase will be more about implementation:"
+      },
+      {
+        "type": "li",
+        "text": "which processes are worth redesigning;"
+      },
+      {
+        "type": "li",
+        "text": "how to connect AI to data and tools;"
+      },
+      {
+        "type": "li",
+        "text": "how to evaluate results;"
+      },
+      {
+        "type": "li",
+        "text": "how to operate securely;"
+      },
+      {
+        "type": "li",
+        "text": "how to drive adoption;"
+      },
+      {
+        "type": "li",
+        "text": "how to turn specific learnings into scalable capabilities."
+      },
+      {
+        "type": "p",
+        "text": "The FDE sits exactly at that point."
+      },
+      {
+        "type": "p",
+        "text": "There will still be significant variation between companies. In some, it will be a primarily technical role. In others, it will have a strong consultative dimension. Some will place it within Engineering; others, closer to Product, Professional Services, or Go-to-Market."
+      },
+      {
+        "type": "p",
+        "text": "But the pattern is already visible: companies need engineers who can get close to the problem, build under real conditions, and take responsibility for the final impact."
+      },
+      {
+        "type": "p",
+        "text": "For Recruiting, the opportunity lies in learning to recognize them before the title fully takes hold."
+      },
+      {
+        "type": "p",
+        "text": "Because many of the future Forward Deployed Engineers are probably already working."
+      },
+      {
+        "type": "p",
+        "text": "They just go by a different name for now."
+      },
+      {
+        "type": "h2",
+        "text": "Sources consulted"
+      },
+      {
+        "type": "li",
+        "text": "Palantir, current description of the Forward Deployed Software Engineer role. (Lever)"
+      },
+      {
+        "type": "li",
+        "text": "OpenAI, Forward Deployed Engineer job description. (OpenAI)"
+      },
+      {
+        "type": "li",
+        "text": "OpenAI, announcement of the OpenAI Deployment Company. (OpenAI)"
+      },
+      {
+        "type": "li",
+        "text": "AWS, launch of Forward Deployed Engineering for customers and partners. (Amazon Web Services, Inc.)"
+      },
+      {
+        "type": "li",
+        "text": "Scale AI, Forward Deployed Engineer, GenAI. (Scale AI)"
+      },
+      {
+        "type": "li",
+        "text": "Financial Times, analysis of the role's growth at AI companies. (Financial Times)"
+      }
+    ]
+  },
+  {
+    "slug": "ai-interviewers-10-tips-for-adopting-them-without-losing-the-candidate",
+    "edition": "11",
+    "title": "AI Interviewers: 10 Tips for Adopting Them Without Losing the Candidate",
+    "date": "August 21, 2026",
+    "original": "Original: \"Entrevistadores AI: 10 Consejos para incorporarlos sin perder al candidato\" · August 21, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "AI Interviewers are taking an increasingly visible place in hiring processes."
+      },
+      {
+        "type": "p",
+        "text": "The promise is appealing: interview more candidates, keep criteria consistent, cut operational time, and get structured information before involving the team."
+      },
+      {
+        "type": "p",
+        "text": "In certain contexts, they can add a lot of value."
+      },
+      {
+        "type": "p",
+        "text": "They can also turn a reasonable experience into a process that's needlessly cold, long, or hard to sustain. The problem arises when the tool is implemented simply because it's available, without reviewing which part of the process it should solve or how candidates will receive it."
+      },
+      {
+        "type": "p",
+        "text": "Before adopting it, there are a few decisions worth making."
+      },
+      {
+        "type": "h2",
+        "text": "1. Limit the interview to three or four areas"
+      },
+      {
+        "type": "p",
+        "text": "An AI Interviewer shouldn't try to replace a full interview."
+      },
+      {
+        "type": "p",
+        "text": "Its greatest value usually shows up when it's used to assess a limited set of variables that can be observed with reasonable clarity. For example:"
+      },
+      {
+        "type": "li",
+        "text": "availability;"
+      },
+      {
+        "type": "li",
+        "text": "experience in a specific context;"
+      },
+      {
+        "type": "li",
+        "text": "level of exposure to a given task;"
+      },
+      {
+        "type": "li",
+        "text": "initial motivation;"
+      },
+      {
+        "type": "li",
+        "text": "the baseline knowledge needed to move forward."
+      },
+      {
+        "type": "p",
+        "text": "When the interview tries to measure too many dimensions, the conversation drags on and the quality of the assessment tends to deteriorate."
+      },
+      {
+        "type": "p",
+        "text": "It also increases the risk of confusing quantity of information with depth."
+      },
+      {
+        "type": "p",
+        "text": "Three or four well-defined areas make for a short, consistent step that's easy to review. The rest can be saved for human interviews, practical exercises, or higher-context stages."
+      },
+      {
+        "type": "h2",
+        "text": "2. Use it for searches with a high volume of qualified applicants"
+      },
+      {
+        "type": "p",
+        "text": "The clearest use case is a search that receives a significant number of candidates who already meet the minimum requirements."
+      },
+      {
+        "type": "p",
+        "text": "In that scenario, the team needs to sort through volume without turning every application into a manual interview."
+      },
+      {
+        "type": "p",
+        "text": "The AI Interviewer can help expand the team's capacity and generate a first layer of structured information."
+      },
+      {
+        "type": "p",
+        "text": "The key word is qualified."
+      },
+      {
+        "type": "p",
+        "text": "A large number of irrelevant applications doesn't automatically justify an automated interview. If the upstream filter works poorly, the tool will just move the noise to a stage that's more costly for the candidate."
+      },
+      {
+        "type": "p",
+        "text": "Before adopting it, it's worth understanding:"
+      },
+      {
+        "type": "li",
+        "text": "how many applicants the search receives;"
+      },
+      {
+        "type": "li",
+        "text": "how many meet the minimum requirements;"
+      },
+      {
+        "type": "li",
+        "text": "how many initial interviews the team conducts today;"
+      },
+      {
+        "type": "li",
+        "text": "what information it needs to decide who moves forward."
+      },
+      {
+        "type": "p",
+        "text": "When actual volume is low, there are probably simpler solutions."
+      },
+      {
+        "type": "h2",
+        "text": "3. Don't send it to every applicant"
+      },
+      {
+        "type": "p",
+        "text": "Filling out a form and doing an interview are different levels of commitment."
+      },
+      {
+        "type": "p",
+        "text": "That's why it isn't reasonable to automatically send an AI Interview to everyone who applies."
+      },
+      {
+        "type": "p",
+        "text": "It's better to add a prior pre-qualification step based on concrete attributes:"
+      },
+      {
+        "type": "li",
+        "text": "knockout requirements;"
+      },
+      {
+        "type": "li",
+        "text": "location;"
+      },
+      {
+        "type": "li",
+        "text": "availability;"
+      },
+      {
+        "type": "li",
+        "text": "seniority;"
+      },
+      {
+        "type": "li",
+        "text": "relevant experience;"
+      },
+      {
+        "type": "li",
+        "text": "application questions;"
+      },
+      {
+        "type": "li",
+        "text": "a predefined minimum score."
+      },
+      {
+        "type": "p",
+        "text": "The goal is for the invitation to reach candidates with a real chance of moving forward."
+      },
+      {
+        "type": "p",
+        "text": "This improves the team's efficiency and, above all, respects the time of those who take part."
+      },
+      {
+        "type": "p",
+        "text": "An automated interview sent out en masse can create the impression that the company is shifting all the initial effort onto the candidate — even before reviewing their profile."
+      },
+      {
+        "type": "h2",
+        "text": "4. Assess whether your brand can absorb that friction"
+      },
+      {
+        "type": "p",
+        "text": "Not every company has the same employer-brand strength."
+      },
+      {
+        "type": "p",
+        "text": "A very well-known organization with an attractive offer and thousands of interested candidates can ask for an extra step without hurting conversion much."
+      },
+      {
+        "type": "p",
+        "text": "A lesser-known company, with average compensation or an already lengthy process, should be more careful."
+      },
+      {
+        "type": "p",
+        "text": "Every step uses up part of the candidate's goodwill."
+      },
+      {
+        "type": "p",
+        "text": "If the process includes an application form, a technical test, an AI Interview, a Recruiting interview, a manager interview, and a final round, the total can become hard to justify."
+      },
+      {
+        "type": "p",
+        "text": "The decision should weigh the relationship between:"
+      },
+      {
+        "type": "li",
+        "text": "how attractive the opportunity is;"
+      },
+      {
+        "type": "li",
+        "text": "brand recognition;"
+      },
+      {
+        "type": "li",
+        "text": "process difficulty;"
+      },
+      {
+        "type": "li",
+        "text": "the time asked of the candidate;"
+      },
+      {
+        "type": "li",
+        "text": "how many alternatives that talent has."
+      },
+      {
+        "type": "p",
+        "text": "The tool can be efficient for the company and, at the same time, too costly for the person on the other side."
+      },
+      {
+        "type": "h2",
+        "text": "5. Avoid it with cold candidates and high-demand profiles"
+      },
+      {
+        "type": "p",
+        "text": "A candidate who actively applied has already shown some interest."
+      },
+      {
+        "type": "p",
+        "text": "A cold candidate reached through sourcing is still deciding whether a conversation is even worth it."
+      },
+      {
+        "type": "p",
+        "text": "Asking them to do an interview with an agent before any human contact can end the relationship too early."
+      },
+      {
+        "type": "p",
+        "text": "The same happens with highly sought-after profiles. The more options a person has, the lower their tolerance tends to be for steps they perceive as impersonal or unnecessary."
+      },
+      {
+        "type": "p",
+        "text": "For these groups, the order of the process matters especially."
+      },
+      {
+        "type": "p",
+        "text": "First, you may need to:"
+      },
+      {
+        "type": "li",
+        "text": "explain the opportunity;"
+      },
+      {
+        "type": "li",
+        "text": "generate interest;"
+      },
+      {
+        "type": "li",
+        "text": "answer questions;"
+      },
+      {
+        "type": "li",
+        "text": "introduce the team;"
+      },
+      {
+        "type": "li",
+        "text": "build trust."
+      },
+      {
+        "type": "p",
+        "text": "Only then might an automated step be considered — as long as its purpose is clear."
+      },
+      {
+        "type": "p",
+        "text": "The tool can work well for high-volume searches or active candidates. That doesn't mean it should be used the same way across every segment."
+      },
+      {
+        "type": "h2",
+        "text": "6. Show the full process before the interview"
+      },
+      {
+        "type": "p",
+        "text": "An AI Interview shouldn't land in someone's inbox as a surprise."
+      },
+      {
+        "type": "p",
+        "text": "Before starting, the candidate needs to understand:"
+      },
+      {
+        "type": "li",
+        "text": "why it's being used;"
+      },
+      {
+        "type": "li",
+        "text": "how long it takes;"
+      },
+      {
+        "type": "li",
+        "text": "what it evaluates;"
+      },
+      {
+        "type": "li",
+        "text": "how their answers will be handled;"
+      },
+      {
+        "type": "li",
+        "text": "who will review the results;"
+      },
+      {
+        "type": "li",
+        "text": "what the next step is;"
+      },
+      {
+        "type": "li",
+        "text": "when they'll hear back."
+      },
+      {
+        "type": "p",
+        "text": "Visibility reduces uncertainty and lets the person decide whether they want to participate with enough information."
+      },
+      {
+        "type": "p",
+        "text": "It also prevents a common feeling: completing a step without knowing whether there'll be a human conversation afterward or whether a system will make the final call."
+      },
+      {
+        "type": "p",
+        "text": "Explaining the full journey improves the perception of fairness and sets expectations from the start."
+      },
+      {
+        "type": "h2",
+        "text": "7. Share the results when possible"
+      },
+      {
+        "type": "p",
+        "text": "One of the main criticisms of automated assessments is the lack of reciprocity."
+      },
+      {
+        "type": "p",
+        "text": "Candidates give their time, answers, voice, image, or personal information. Often, they get nothing in return."
+      },
+      {
+        "type": "p",
+        "text": "If the tool generates an understandable report, consider sharing it."
+      },
+      {
+        "type": "p",
+        "text": "That report might include:"
+      },
+      {
+        "type": "li",
+        "text": "observed areas;"
+      },
+      {
+        "type": "li",
+        "text": "strengths;"
+      },
+      {
+        "type": "li",
+        "text": "dimensions assessed;"
+      },
+      {
+        "type": "li",
+        "text": "recommendations;"
+      },
+      {
+        "type": "li",
+        "text": "limitations of the analysis."
+      },
+      {
+        "type": "p",
+        "text": "It shouldn't be presented as a definitive truth about the person. It's the result of a single step, built on specific criteria."
+      },
+      {
+        "type": "p",
+        "text": "Sharing information increases transparency and gives the experience some value even when the candidate doesn't move forward."
+      },
+      {
+        "type": "h2",
+        "text": "8. Always keep a human point of contact"
+      },
+      {
+        "type": "p",
+        "text": "The presence of technology doesn't eliminate the need for someone to talk to."
+      },
+      {
+        "type": "p",
+        "text": "The candidate should know whom to contact if they:"
+      },
+      {
+        "type": "li",
+        "text": "have technical issues;"
+      },
+      {
+        "type": "li",
+        "text": "need an accommodation;"
+      },
+      {
+        "type": "li",
+        "text": "don't understand a question;"
+      },
+      {
+        "type": "li",
+        "text": "want to learn more about the position;"
+      },
+      {
+        "type": "li",
+        "text": "need to reschedule;"
+      },
+      {
+        "type": "li",
+        "text": "want to raise a concern about how their data is used."
+      },
+      {
+        "type": "p",
+        "text": "That contact can be a recruiter, a monitored inbox, or someone responsible for the process. What matters is that it exists and is visible."
+      },
+      {
+        "type": "p",
+        "text": "An automated interview with no human support leaves the candidate alone in front of any exception."
+      },
+      {
+        "type": "p",
+        "text": "And hiring processes are full of exceptions."
+      },
+      {
+        "type": "h2",
+        "text": "9. Keep it between 15 and 20 minutes"
+      },
+      {
+        "type": "p",
+        "text": "A first automated interview should be short."
+      },
+      {
+        "type": "p",
+        "text": "Fifteen to twenty minutes is usually enough to assess a limited set of areas and get useful information for deciding the next step."
+      },
+      {
+        "type": "p",
+        "text": "When it runs longer, several risks appear:"
+      },
+      {
+        "type": "li",
+        "text": "lower completion rates;"
+      },
+      {
+        "type": "li",
+        "text": "less thoughtful answers;"
+      },
+      {
+        "type": "li",
+        "text": "higher drop-off;"
+      },
+      {
+        "type": "li",
+        "text": "a sense of doing unpaid work;"
+      },
+      {
+        "type": "li",
+        "text": "a worse overall experience."
+      },
+      {
+        "type": "p",
+        "text": "If a company needs 45 minutes to gather initial information, it probably needs to revisit how the step is designed."
+      },
+      {
+        "type": "p",
+        "text": "A time limit forces you to prioritize."
+      },
+      {
+        "type": "p",
+        "text": "It also helps the team define what it needs to know at that moment and what can wait for a later conversation."
+      },
+      {
+        "type": "h2",
+        "text": "10. Give feedback and communicate the decision from a person"
+      },
+      {
+        "type": "p",
+        "text": "Sending an automated report doesn't replace closing the loop."
+      },
+      {
+        "type": "p",
+        "text": "Confirmation of advancement or rejection should come from an identifiable person, even if the message uses a template."
+      },
+      {
+        "type": "p",
+        "text": "This matters especially after an interview."
+      },
+      {
+        "type": "p",
+        "text": "The candidate has already invested time, put themselves out there, and probably built expectations. A fully automated response can deepen the sense of distance."
+      },
+      {
+        "type": "p",
+        "text": "Giving feedback doesn't always mean writing a lengthy reply. It can be:"
+      },
+      {
+        "type": "li",
+        "text": "confirming the decision;"
+      },
+      {
+        "type": "li",
+        "text": "thanking them for participating;"
+      },
+      {
+        "type": "li",
+        "text": "briefly explaining the main criterion;"
+      },
+      {
+        "type": "li",
+        "text": "sharing the available report;"
+      },
+      {
+        "type": "li",
+        "text": "outlining next steps;"
+      },
+      {
+        "type": "li",
+        "text": "leaving a channel open for questions."
+      },
+      {
+        "type": "p",
+        "text": "Automation can help make sure no one is left without a response."
+      },
+      {
+        "type": "p",
+        "text": "Responsibility for that response is still human."
+      },
+      {
+        "type": "h2",
+        "text": "A tool within a process"
+      },
+      {
+        "type": "p",
+        "text": "An AI Interviewer can increase capacity, organize information, and provide greater consistency at certain stages."
+      },
+      {
+        "type": "p",
+        "text": "Its implementation needs to respond to a concrete use case."
+      },
+      {
+        "type": "p",
+        "text": "Before adding it, review four questions:"
+      },
+      {
+        "type": "li",
+        "text": "What operational problem are we solving?"
+      },
+      {
+        "type": "li",
+        "text": "In which searches does it add the most value?"
+      },
+      {
+        "type": "li",
+        "text": "What effort are we asking of the candidate?"
+      },
+      {
+        "type": "li",
+        "text": "Which decisions remain under human responsibility?"
+      },
+      {
+        "type": "p",
+        "text": "The quality of the experience doesn't depend on the technology alone."
+      },
+      {
+        "type": "p",
+        "text": "It depends on who gets invited, what gets evaluated, how long it takes, what information is offered, and how the relationship continues afterward."
+      },
+      {
+        "type": "p",
+        "text": "An AI Interviewer can be a good front door to the process."
+      },
+      {
+        "type": "p",
+        "text": "For it to work, the company has to make sure that on the other side there's still a door that leads to a person."
+      }
+    ]
+  },
+  {
+    "slug": "some-ideas-also-need-to-be-seen",
+    "edition": "12",
+    "title": "Some Ideas Also Need to Be Seen",
+    "date": "August 31, 2026",
+    "original": "Original: \"Algunas ideas también necesitan verse\" · August 31, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "For a long time, almost everything I shared about Recruiting, AI, and work was in writing."
+      },
+      {
+        "type": "p",
+        "text": "That's not going to change."
+      },
+      {
+        "type": "p",
+        "text": "But after giving The Human Side of the Algorithm (El Lado Humano del Algoritmo) at the Argentine HR Congress, I decided to start bringing some of those ideas to video."
+      },
+      {
+        "type": "p",
+        "text": "I'm posting on Instagram:"
+      },
+      {
+        "type": "li",
+        "text": "clips from my talks;"
+      },
+      {
+        "type": "li",
+        "text": "short ideas on AI and leadership;"
+      },
+      {
+        "type": "li",
+        "text": "content on AI Fluency;"
+      },
+      {
+        "type": "li",
+        "text": "a few passages from Cuentos de Oficina (Office Tales);"
+      },
+      {
+        "type": "li",
+        "text": "new reflections on how work is changing."
+      },
+      {
+        "type": "p",
+        "text": "I don't want to make a condensed version of LinkedIn; I want to use video to tell these ideas in a different way."
+      },
+      {
+        "type": "p",
+        "text": "If you enjoy The Recruiter's Logbook and you're interested in continuing the conversation in another format, you can find me at:"
+      },
+      {
+        "type": "p",
+        "text": "@marianoobligado"
+      },
+      {
+        "type": "p",
+        "text": "Follow me on Instagram → https://www.instagram.com/marianoobligado/"
+      },
+      {
+        "type": "p",
+        "text": "We'll keep reading each other here."
+      },
+      {
+        "type": "p",
+        "text": "And now we can start seeing each other a bit more, too."
+      }
+    ]
+  },
+  {
+    "slug": "jev-the-new-ai-model-where-it-will-change-recruiting-and-where-it-wont",
+    "edition": "13",
+    "title": "Jev, the New AI Model: Where It Will Change Recruiting — and Where It Won't",
+    "date": "September 21, 2026",
+    "original": "Original: \"Jev: el nuevo modelo de IA. Dónde va a cambiar el reclutamiento y dónde no\" · September 21, 2026",
+    "body": [
+      {
+        "type": "p",
+        "text": "A few days ago, an AI model appeared that breaks with everything we've been using. It doesn't write emails, summarize résumés, or draft job descriptions. It doesn't generate a single word."
+      },
+      {
+        "type": "p",
+        "text": "It's called Jev, it was created by TypeSafe AI, and behind it is Diogo Almeida, one of the researchers who worked at OpenAI on the technology that made ChatGPT possible."
+      },
+      {
+        "type": "p",
+        "text": "The only thing Jev does is answer closed questions. And that's exactly why it's worth paying attention to if you work in recruiting."
+      },
+      {
+        "type": "h2",
+        "text": "First: what is it, and why is it different?"
+      },
+      {
+        "type": "p",
+        "text": "Daniel Kahneman described two ways of thinking. System 1 is fast and intuitive: the judgment an experienced recruiter makes when they glance at a résumé and know within ten seconds whether \"there's something there.\" System 2 is slow and deliberate: sitting down to analyze, compare, and argue."
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT, Claude, and the rest work more like System 2: they think by writing, word by word. Jev presents itself as the first \"System 1\" model. You give it a text and a question, and it returns a decision instantly."
+      },
+      {
+        "type": "p",
+        "text": "That decision comes in only three possible formats:"
+      },
+      {
+        "type": "li",
+        "text": "Choosing between options. For example: \"Is this candidate junior, mid-level, or senior?\""
+      },
+      {
+        "type": "li",
+        "text": "Placing something on a scale. For example: \"What level of leadership experience does this résumé show, from 1 to 5?\""
+      },
+      {
+        "type": "li",
+        "text": "Answering yes or no. For example: \"Does the résumé mention B2B sales experience?\""
+      },
+      {
+        "type": "p",
+        "text": "And with every answer, it tells you how confident it is. That detail, which seems minor, is the most important thing about the whole model. We'll get there."
+      },
+      {
+        "type": "p",
+        "text": "There are two other differences that matter:"
+      },
+      {
+        "type": "li",
+        "text": "It's absurdly cheap and fast. According to the company, it's between 40 and 400 times cheaper than traditional models, and it responds in under half a second."
+      },
+      {
+        "type": "li",
+        "text": "It can't make up answers that aren't on the menu. If you give it three options, it will return one of those three. It can pick the wrong option, but it won't come up with something that doesn't exist."
+      },
+      {
+        "type": "h2",
+        "text": "Where it WILL make an impact"
+      },
+      {
+        "type": "h2",
+        "text": "1. Evaluating every candidate, not just the first 50"
+      },
+      {
+        "type": "p",
+        "text": "Every recruiter knows this, even if they don't say it out loud: when a search gets 800 applications, the last résumés get far less attention than the first ones."
+      },
+      {
+        "type": "p",
+        "text": "With Jev, evaluating a résumé costs a fraction of a cent. I ran the numbers: evaluating one hundred thousand profiles against a search would cost around ten dollars. Cost stops being an excuse for not looking at everyone."
+      },
+      {
+        "type": "h2",
+        "text": "2. Your database stops being a graveyard"
+      },
+      {
+        "type": "p",
+        "text": "For me, this is the biggest change."
+      },
+      {
+        "type": "p",
+        "text": "Every company has thousands of candidates in its ATS who applied at some point and were never contacted again. With every new search, we start from scratch and post the job ad all over again."
+      },
+      {
+        "type": "p",
+        "text": "With a model this cheap, every new search can be automatically evaluated against your entire historical database. The candidate who came in second for another position a year ago could be the ideal fit for today's. Until now, nobody did this because it was expensive and slow. Now it isn't."
+      },
+      {
+        "type": "h2",
+        "text": "3. Matching you can explain"
+      },
+      {
+        "type": "p",
+        "text": "Many \"AI matching\" tools today give you a magic number: \"This candidate is an 87% match.\" Why 87? Nobody knows."
+      },
+      {
+        "type": "p",
+        "text": "Jev works better if, instead of one giant question, you ask it lots of small ones. Do they have industry experience? Have they led teams? Do they know tool X? Then you decide how much each factor weighs."
+      },
+      {
+        "type": "p",
+        "text": "For a leadership role, leadership counts for 40%. For a specialist, 10%. The criteria are written down, visible, and can be adjusted and audited. That's far more honest than a percentage that comes out of a black box."
+      },
+      {
+        "type": "h2",
+        "text": "4. AI that says \"I don't know\""
+      },
+      {
+        "type": "p",
+        "text": "Let's go back to confidence."
+      },
+      {
+        "type": "p",
+        "text": "One of the most serious problems with generative AI is that it answers with the same certainty whether it knows or not. Jev, on the other hand, attaches a confidence level to every answer, which lets you design processes with three lanes:"
+      },
+      {
+        "type": "li",
+        "text": "High confidence: the tool moves ahead on its own."
+      },
+      {
+        "type": "li",
+        "text": "Medium confidence: it's flagged for review."
+      },
+      {
+        "type": "li",
+        "text": "Low confidence: it goes straight to a person."
+      },
+      {
+        "type": "p",
+        "text": "This is what we in HR have been asking for: let AI handle the volume and let people handle the cases that truly require human judgment."
+      },
+      {
+        "type": "h2",
+        "text": "5. Competency-based interview evaluation"
+      },
+      {
+        "type": "p",
+        "text": "If you've ever worked with behaviorally anchored rating scales — \"Level 1: gives no concrete examples; Level 5: describes complex situations with measurable results\" — this will feel familiar. That's exactly the format in which Jev works best."
+      },
+      {
+        "type": "p",
+        "text": "Starting from an interview transcript, it can place the candidate on each competency according to the scale your company defined. It doesn't replace the interviewer, but it gives them a consistent starting point that's comparable across candidates."
+      },
+      {
+        "type": "h2",
+        "text": "6. Invisible operational tasks"
+      },
+      {
+        "type": "p",
+        "text": "There are things nobody sees that eat up hours:"
+      },
+      {
+        "type": "li",
+        "text": "Sorting candidate messages: who's asking about their status, who wants to reschedule, who's withdrawing."
+      },
+      {
+        "type": "li",
+        "text": "Detecting duplicate candidates who came in via LinkedIn, a referral, and a job board."
+      },
+      {
+        "type": "li",
+        "text": "Tagging the database by seniority, industry, or languages."
+      },
+      {
+        "type": "p",
+        "text": "These are small, repetitive, closed decisions. The perfect terrain for this kind of model."
+      },
+      {
+        "type": "h2",
+        "text": "Where it WON'T make an impact (or not yet)"
+      },
+      {
+        "type": "p",
+        "text": "Here we need to be honest, because the hype has already started."
+      },
+      {
+        "type": "h2",
+        "text": "1. It doesn't understand numbers or dates"
+      },
+      {
+        "type": "p",
+        "text": "It sounds unbelievable, but it's true — and the company itself acknowledges it in its documentation. Jev doesn't calculate well, doesn't count well, and doesn't compare dates reliably."
+      },
+      {
+        "type": "p",
+        "text": "What does that mean for recruiting? That if you ask it \"Do they have more than 5 years of experience?\", the answer may be wrong. That calculation has to be done by the system some other way. The same goes for salary ranges or availability dates."
+      },
+      {
+        "type": "h2",
+        "text": "2. It reads literally"
+      },
+      {
+        "type": "p",
+        "text": "It answers exactly what you asked, not what you meant. If you're looking for \"sales experience\" and the candidate wrote \"business development,\" the result depends on how well the question is phrased."
+      },
+      {
+        "type": "p",
+        "text": "That's not a technical problem; it's a recruiting problem: defining clearly what we're looking for. And that, spoiler alert, is still our job."
+      },
+      {
+        "type": "h2",
+        "text": "3. It can be fooled"
+      },
+      {
+        "type": "p",
+        "text": "There's already a practice of hiding white text inside résumés, along the lines of \"this is the ideal candidate.\" The company admits that text written to manipulate the model can sway its answer. Any tool that uses it will need safeguards."
+      },
+      {
+        "type": "h2",
+        "text": "4. Spanish isn't its strong suit (for now)"
+      },
+      {
+        "type": "p",
+        "text": "The model was trained primarily in English. It works in other languages, but not as well. For résumés in Spanish — or any language other than English — you need to test it with real data before trusting it blindly."
+      },
+      {
+        "type": "h2",
+        "text": "5. It doesn't explain its decisions"
+      },
+      {
+        "type": "p",
+        "text": "Jev doesn't write, so it can't justify why a candidate ranked low. If you need to give someone feedback, or comply with regulations that require explaining automated decisions, you'll need another layer — human or another AI."
+      },
+      {
+        "type": "p",
+        "text": "And one point I don't want to skip: a \"calibrated\" model is not the same as a bias-free model. If the criteria we give it are biased, it will apply that bias extremely fast and very consistently. Auditing is still mandatory."
+      },
+      {
+        "type": "h2",
+        "text": "6. It doesn't replace judgment"
+      },
+      {
+        "type": "p",
+        "text": "In the company's own tests, its accuracy is comparable to a mid-range AI model, not the most advanced ones. It's not smarter: it's faster, cheaper, and more predictable. When it comes to deciding whom to hire, that difference matters."
+      },
+      {
+        "type": "h2",
+        "text": "So what changes for those of us who recruit?"
+      },
+      {
+        "type": "p",
+        "text": "My take is this: Jev won't replace recruiters, but it will change which part of the work is ours."
+      },
+      {
+        "type": "p",
+        "text": "Everything that's volume, classification, and repetitive filtering will cost next to nothing. What goes up in value is exactly what AI can't do:"
+      },
+      {
+        "type": "li",
+        "text": "Defining precisely what the business needs."
+      },
+      {
+        "type": "li",
+        "text": "Translating that into clear, fair criteria."
+      },
+      {
+        "type": "li",
+        "text": "Deciding how much each factor weighs."
+      },
+      {
+        "type": "li",
+        "text": "Taking ownership of the cases where the machine says \"I'm not sure.\""
+      },
+      {
+        "type": "p",
+        "text": "The recruiter of the near future looks less like someone who reads résumés and more like someone who designs the criteria by which they're read."
+      },
+      {
+        "type": "p",
+        "text": "One final caveat, so I'm not selling smoke: the model is only weeks old, it's in early access, and most of the numbers circulating were published by the company itself. It needs to be tested with real data before drawing definitive conclusions. But the direction is clear, and it's worth starting to think about processes with this logic now."
+      },
+      {
+        "type": "p",
+        "text": "Is your team already exploring how to bring AI into your hiring process? That's exactly what we work on at levelUp. Drop me a line and let's talk."
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-cream font-sans antialiased;
+  }
+
+  ::selection {
+    background: #5c2e91;
+    color: #f6f1e8;
+  }
+}
+
+@layer components {
+  .page {
+    @apply mx-auto w-full max-w-page px-6;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+
+  .btn-light {
+    @apply btn bg-cream text-ink hover:bg-white focus-visible:outline-gold;
+  }
+
+  .btn-dark {
+    @apply btn bg-ink text-cream hover:bg-purple focus-visible:outline-purple;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-gold;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-ink/10 bg-white px-4 py-3 text-ink outline-none transition placeholder:text-ink/30 focus:border-purple focus:ring-2 focus:ring-purple/20;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 48s linear infinite;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+.how-bg {
+  background-color: #100c14;
+}
+
+@media (min-width: 1024px) {
+  .how-bg {
+    background-image:
+      linear-gradient(90deg, #100c14 0%, #100c14 38%, rgba(16, 12, 20, 0.72) 68%, rgba(16, 12, 20, 0.2) 100%),
+      url(/assets/fondo3.png);
+    background-size: cover;
+    background-position: right center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
