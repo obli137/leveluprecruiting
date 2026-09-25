@@ -5,7 +5,7 @@ const links = [
   { href: '#how', label: 'How it works' },
   { href: '#roles', label: 'Roles' },
   { href: '/about', label: 'About' },
-  { href: '/articles', label: 'Articles' },
+  { href: '/articles', label: 'Blog' },
 ];
 
 export default function Header() {

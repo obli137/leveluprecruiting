@@ -11,7 +11,7 @@ export default function Footer() {
             About
           </a>
           <a href="/articles" onClick={onNav} className="hover:text-cream">
-            Articles
+            Blog
           </a>
           <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-cream">
             {CONTACT_EMAIL}

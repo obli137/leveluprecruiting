@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Includes from './components/Includes';
+import Logbook from './components/Logbook';
 import LogoCarousel from './components/LogoCarousel';
 import Roles from './components/Roles';
 import { usePath } from './lib/navigation';
@@ -34,6 +35,7 @@ function Home() {
       <Coverage />
       <Founder />
       <Includes />
+      <Logbook />
       <Contact />
     </>
   );

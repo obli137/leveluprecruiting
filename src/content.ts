@@ -1,4 +1,5 @@
 export const roles = [
+  'Forward Deployed Engineer (FDE)',
   'AI Developers',
   'Machine Learning Engineers',
   'Data Scientists',
@@ -7,6 +8,9 @@ export const roles = [
   'Mobile',
   'Backend',
   'Frontend',
+  'Product Designer',
+  'UX/UI Designer',
+  'Product Growth Specialist',
 ] as const;
 
 export const nearbyRoles = [
@@ -19,6 +23,7 @@ export const nearbyRoles = [
 ] as const;
 
 export const clients = [
+  { name: 'The Agile Monkeys', src: '/clientes/agilemonkeys.svg' },
   { name: 'Despegar', src: '/clientes/despegar-logo.webp' },
   { name: 'Digital House', src: '/clientes/digital-house-logo.png' },
   { name: 'Etermax', src: '/clientes/etermax.png' },

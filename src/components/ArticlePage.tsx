@@ -40,7 +40,7 @@ export default function ArticlePage({ slug }: { slug: string }) {
         <div className="page max-w-2xl">
           <h1 className="font-display text-4xl font-semibold">This piece isn’t here.</h1>
           <a href="/articles" onClick={onNav} className="mt-6 inline-block underline underline-offset-4">
-            Back to articles
+            Back to the blog
           </a>
         </div>
       </section>

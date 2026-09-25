@@ -8,8 +8,8 @@ export default function Hero() {
           <span className="mt-2 block text-gold">Pay when they start.</span>
         </h1>
         <p className="mt-8 max-w-xl text-lg leading-relaxed text-cream/75">
-          AI, machine learning, data, and the product engineers around them. One search, run by
-          Mariano Obligado, LinkedIn Top Voice in Talent Acquisition.
+          AI, machine learning, data, and the product engineers around them, hired in Latin America.
+          We help you choose the country and the real cost, then run the search.
         </p>
         <div className="mt-10 flex flex-wrap items-center gap-5">
           <a href="#start" className="btn-light">

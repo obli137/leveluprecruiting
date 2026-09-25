@@ -27,10 +27,10 @@ const team = [
 ] as const;
 
 const points = [
-  'You work with the people who run the search.',
-  'Fifteen years hiring technical teams.',
-  'AI, data, cloud, and the engineers around them.',
-  'No fee until your hire starts.',
+  'Which country for which role, before outreach starts.',
+  'The real cost of the hire: salary, benefits, and markup.',
+  'AI, data, cloud, and the product engineers around them.',
+  'Direct hire. No fee until they start.',
 ];
 
 export default function AboutPage() {
@@ -43,10 +43,11 @@ export default function AboutPage() {
       <div className="page">
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-purple">About us</p>
         <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold tracking-tight md:text-6xl">
-          Built from the craft of better recruiting
+          Built to hire in Latin America
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-ink/70">
-          A direct-hire practice for IT teams, founded by Mariano Obligado.
+          levelUp helps US companies build engineering hubs in the region. Before the search starts,
+          we decide which country fits the role and what the talent actually costs.
         </p>
 
         <div className="mt-16 grid items-center gap-12 border-t border-ink/15 pt-16 lg:grid-cols-[minmax(0,22rem)_1fr]">
@@ -74,13 +75,15 @@ export default function AboutPage() {
               Founder of levelUp · LinkedIn Top Voice · Talent Acquisition
             </p>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/75">
-              Mariano Obligado is the founder of levelUp. His talent acquisition background combines
-              operations, assessment judgment, and process design — with fifteen years hiring
-              technical teams.
+              Mariano Obligado has spent fifteen years hiring technical teams in Latin America. US
+              companies work with him when they are opening a hub and need a read on the market:
+              which country has depth for the role, which seniority is realistic, and what a strong
+              hire costs once salary, benefits, and contractor markup are included.
             </p>
             <p className="mt-4 max-w-xl text-lg leading-relaxed text-ink/75">
               He is a LinkedIn Top Voice in Talent Acquisition and a speaker at the Argentine HR
-              Congress. The person who calibrates the role owns the search.
+              Congress. The person who calibrates the role owns the search, including the country,
+              the level, and the budget.
             </p>
           </div>
         </div>
@@ -96,7 +99,7 @@ export default function AboutPage() {
         <div className="mt-20 border-t border-ink/15 pt-16">
           <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">The team</h2>
           <p className="mt-4 max-w-xl text-lg text-ink/70">
-            The search is run by the people on this page.
+            The search is run by the people on this page. They work the Latin America market every day.
           </p>
           <ul className="mt-10 grid gap-10 md:grid-cols-3">
             {team.map((person) => (
@@ -118,10 +121,11 @@ export default function AboutPage() {
 
         <div className="mt-20 rounded-3xl bg-ink px-8 py-10 text-cream md:px-12">
           <h2 className="max-w-xl font-display text-3xl font-semibold tracking-tight md:text-4xl">
-            Want to hire an engineer?
+            Opening a hub, or one role?
           </h2>
           <p className="mt-4 max-w-xl text-cream/75">
-            Tell us the role. We start with the hiring manager, then bring people worth interviewing.
+            Tell us the work. We’ll recommend the country, the level, and a cost range, then bring
+            people worth interviewing.
           </p>
           <a href="/#start" onClick={onNav} className="btn-light mt-8">
             Start a search
