@@ -1,5 +1,8 @@
+import { useForm } from '@formspree/react';
 import { FormEvent, useState } from 'react';
 import { CONTACT_EMAIL } from '../content';
+
+const FORM_ID = 'xlgwoelr';
 
 type Fields = {
   name: string;
@@ -26,38 +29,25 @@ function isEmail(value: string) {
 export default function Contact() {
   const [fields, setFields] = useState<Fields>(empty);
   const [errors, setErrors] = useState<Partial<Record<keyof Fields, string>>>({});
-  const [sent, setSent] = useState(false);
+  const [state, handleSubmit] = useForm(FORM_ID);
 
   function update(key: keyof Fields, value: string) {
     setFields((current) => ({ ...current, [key]: value }));
     setErrors((current) => ({ ...current, [key]: undefined }));
   }
 
-  function onSubmit(event: FormEvent) {
-    event.preventDefault();
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
     const nextErrors: Partial<Record<keyof Fields, string>> = {};
     if (!fields.name.trim()) nextErrors.name = 'Add your name.';
     if (!isEmail(fields.email.trim())) nextErrors.email = 'Use a work email.';
     if (!fields.company.trim()) nextErrors.company = 'Add your company.';
     if (!fields.role.trim()) nextErrors.role = 'Tell us the role.';
     setErrors(nextErrors);
-    if (Object.keys(nextErrors).length > 0) return;
-
-    const body = [
-      `Name: ${fields.name.trim()}`,
-      `Email: ${fields.email.trim()}`,
-      `Company: ${fields.company.trim()}`,
-      `Role: ${fields.role.trim()}`,
-      '',
-      fields.note.trim(),
-    ].join('\n');
-
-    const subject = `New search — ${fields.company.trim()}`;
-    const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setSent(true);
-    window.setTimeout(() => {
-      window.location.href = href;
-    }, 50);
+    if (Object.keys(nextErrors).length > 0) {
+      event.preventDefault();
+      return;
+    }
+    handleSubmit(event);
   }
 
   return (
@@ -78,9 +68,9 @@ export default function Contact() {
         </div>
 
         <div className="rounded-3xl bg-cream p-6 text-ink md:p-8">
-          {sent ? (
+          {state.succeeded ? (
             <p className="text-lg">
-              Your email app should open with the message. If it doesn’t, write to{' '}
+              We received your search. We reply within one business day. If you need to write again, use{' '}
               <a className="font-medium underline" href={`mailto:${CONTACT_EMAIL}`}>
                 {CONTACT_EMAIL}
               </a>
@@ -88,18 +78,21 @@ export default function Contact() {
             </p>
           ) : (
             <form onSubmit={onSubmit} noValidate className="grid gap-4">
+              <input type="hidden" name="_subject" value={`New search — ${fields.company.trim()}`} />
               {(Object.keys(labels) as (keyof Fields)[]).map((key) => (
                 <label key={key} className="grid gap-1.5 text-sm font-medium">
                   {labels[key]}
                   {key === 'note' ? (
                     <textarea
                       className="field min-h-28 resize-y"
+                      name="message"
                       value={fields.note}
                       onChange={(event) => update('note', event.target.value)}
                     />
                   ) : (
                     <input
                       className="field"
+                      name={key}
                       type={key === 'email' ? 'email' : 'text'}
                       autoComplete={
                         key === 'email' ? 'email' : key === 'name' ? 'name' : key === 'company' ? 'organization' : 'off'
@@ -117,8 +110,17 @@ export default function Contact() {
                   )}
                 </label>
               ))}
-              <button type="submit" className="btn-dark mt-2">
-                Start a search
+              {state.errors && (
+                <p className="text-sm text-red-800" role="alert">
+                  We couldn’t send that. Write to{' '}
+                  <a className="font-medium underline" href={`mailto:${CONTACT_EMAIL}`}>
+                    {CONTACT_EMAIL}
+                  </a>
+                  .
+                </p>
+              )}
+              <button type="submit" className="btn-dark mt-2" disabled={state.submitting}>
+                {state.submitting ? 'Sending…' : 'Start a search'}
               </button>
             </form>
           )}
